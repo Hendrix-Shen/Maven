@@ -4,11 +4,11 @@
   <artifactId>magiclib</artifactId>
   <versioning>
     <latest>0.1-SNAPSHOT</latest>
-    <release>0.1.9</release>
+    <release>0.1.10</release>
     <versions>
-      <version>0.1.9</version>
+      <version>0.1.10</version>
       <version>0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220203112007</lastUpdated>
+    <lastUpdated>20220212093044</lastUpdated>
   </versioning>
 </metadata>
