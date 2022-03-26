@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>top.hendrixshen.magiclib</groupId>
-  <artifactId>magiclib</artifactId>
+  <artifactId>magiclib-compat-mc1_18</artifactId>
   <versioning>
     <latest>0.3.16</latest>
     <release>0.3.16</release>
