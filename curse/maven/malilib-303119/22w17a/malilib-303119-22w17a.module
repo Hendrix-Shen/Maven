@@ -27,11 +27,11 @@
         {
           "name": "malilib-303119-22w17a.jar",
           "url": "malilib-303119-22w17a.jar",
-          "size": 516452,
-          "sha512": "6cd3f559af8470ef1f0a3f6dc433bb9d05c76aeb71f5c26b947889e1520d0b8bf65c278eafeb80207099c4134bc12b96257ad25e6986cb8b7576c9cb5519b6da",
-          "sha256": "a2eb810e197000e7195c36fe6da78a761e41cf55024cd1e6001164d7ffca889d",
-          "sha1": "3453edbdc0439058b97657e18364983115992852",
-          "md5": "55e80dbba2e4ab3999a99ca95710bf85"
+          "size": 516453,
+          "sha512": "372f3e901bf67d9160306ff52fa94182b2d75ffa2c6795909b95678ebcfd99d18acd03ae4f967808b0588b73b9d2fd5e5665f24d2f2df540eb9724ae651d4e99",
+          "sha256": "787c516fc316638715af9fc776e91373935c342fc57197b77a38426b305b4070",
+          "sha1": "b3dd0613e5748188a4e4524774dee4b9e1c2330b",
+          "md5": "6fb8f081f56b9618ba82f6a7b91c62e7"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "malilib-303119-22w17a.jar",
           "url": "malilib-303119-22w17a.jar",
-          "size": 516452,
-          "sha512": "6cd3f559af8470ef1f0a3f6dc433bb9d05c76aeb71f5c26b947889e1520d0b8bf65c278eafeb80207099c4134bc12b96257ad25e6986cb8b7576c9cb5519b6da",
-          "sha256": "a2eb810e197000e7195c36fe6da78a761e41cf55024cd1e6001164d7ffca889d",
-          "sha1": "3453edbdc0439058b97657e18364983115992852",
-          "md5": "55e80dbba2e4ab3999a99ca95710bf85"
+          "size": 516453,
+          "sha512": "372f3e901bf67d9160306ff52fa94182b2d75ffa2c6795909b95678ebcfd99d18acd03ae4f967808b0588b73b9d2fd5e5665f24d2f2df540eb9724ae651d4e99",
+          "sha256": "787c516fc316638715af9fc776e91373935c342fc57197b77a38426b305b4070",
+          "sha1": "b3dd0613e5748188a4e4524774dee4b9e1c2330b",
+          "md5": "6fb8f081f56b9618ba82f6a7b91c62e7"
         }
       ]
     },
@@ -91,11 +91,11 @@
         {
           "name": "malilib-303119-22w17a-sources.jar",
           "url": "malilib-303119-22w17a-sources.jar",
-          "size": 261595,
-          "sha512": "fc9952c726d8bff8359f71e2e9ba674fe2158da2e4d566f366abb4ae8d7a51f40fa138a2636ad6d3e128085d8083305c77c955dec0eed2e4f53189e6f4ce8846",
-          "sha256": "dc5d034db71a73e4bdfbabbeac060204e8b9377d40c6e41c844cca14aaa0f720",
-          "sha1": "6e0ef57bc4c43f0ff30a5faa821c77d871bd3a90",
-          "md5": "9b1d8ca99825292f05459794e46b2f2e"
+          "size": 261593,
+          "sha512": "a4c9c04cff6c4fb29ae1cba11264b94a4ca42073643c8693d0edbd5219643627812dcad6ad2c6e476a585ab10f7c8bcb20286c2298546c387aef74dc12020ea9",
+          "sha256": "0da1718ca5047d0af69cb7c4f9cd2733b1b1634b140aaf17b7d4e7f750637ba2",
+          "sha1": "354286f616d4d00d0d943624c3489772ffaa3e7e",
+          "md5": "e518d43ec8914cfb6efd23614a41e303"
         }
       ]
     }
