@@ -3,11 +3,11 @@
   <groupId>curse.maven</groupId>
   <artifactId>malilib-303119</artifactId>
   <versioning>
-    <latest>22w17a</latest>
-    <release>22w17a</release>
+    <latest>22w19a</latest>
+    <release>22w19a</release>
     <versions>
-      <version>22w17a</version>
+      <version>22w19a</version>
     </versions>
-    <lastUpdated>20220501150529</lastUpdated>
+    <lastUpdated>20220513042853</lastUpdated>
   </versioning>
 </metadata>
