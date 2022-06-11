@@ -3,7 +3,7 @@
   "component": {
     "group": "curse.maven",
     "module": "malilib-303119",
-    "version": "22w17a",
+    "version": "1.19",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "malilib-303119-22w17a.jar",
-          "url": "malilib-303119-22w17a.jar",
-          "size": 516453,
-          "sha512": "372f3e901bf67d9160306ff52fa94182b2d75ffa2c6795909b95678ebcfd99d18acd03ae4f967808b0588b73b9d2fd5e5665f24d2f2df540eb9724ae651d4e99",
-          "sha256": "787c516fc316638715af9fc776e91373935c342fc57197b77a38426b305b4070",
-          "sha1": "b3dd0613e5748188a4e4524774dee4b9e1c2330b",
-          "md5": "6fb8f081f56b9618ba82f6a7b91c62e7"
+          "name": "malilib-303119-1.19.jar",
+          "url": "malilib-303119-1.19.jar",
+          "size": 526636,
+          "sha512": "3d55a158344dfb739b03bf610e414563278f777fe006049c2e4fe98e263c86598e3aeb449b2a09314627e04788c31ab5aa2b3b5ea6dbc2038305a0130e555905",
+          "sha256": "6daa0f1fb71f86cbfa2fd60ea1709930fa76d7248633455050626b95a46a4d14",
+          "sha1": "e1a2b021c8c045ed564290503175f235a6094eeb",
+          "md5": "ee7f2a50436a4132b24af0bcf15d48ae"
         }
       ]
     },
@@ -56,26 +56,26 @@
           "group": "net.fabricmc",
           "module": "fabric-loader",
           "version": {
-            "requires": "0.14.3"
+            "requires": "0.14.7"
           }
         },
         {
           "group": "net.fabricmc.fabric-api",
           "module": "fabric-resource-loader-v0",
           "version": {
-            "requires": "0.4.24+ec94c6f6a7"
+            "requires": "0.5.3+9e7660c6a9"
           }
         }
       ],
       "files": [
         {
-          "name": "malilib-303119-22w17a.jar",
-          "url": "malilib-303119-22w17a.jar",
-          "size": 516453,
-          "sha512": "372f3e901bf67d9160306ff52fa94182b2d75ffa2c6795909b95678ebcfd99d18acd03ae4f967808b0588b73b9d2fd5e5665f24d2f2df540eb9724ae651d4e99",
-          "sha256": "787c516fc316638715af9fc776e91373935c342fc57197b77a38426b305b4070",
-          "sha1": "b3dd0613e5748188a4e4524774dee4b9e1c2330b",
-          "md5": "6fb8f081f56b9618ba82f6a7b91c62e7"
+          "name": "malilib-303119-1.19.jar",
+          "url": "malilib-303119-1.19.jar",
+          "size": 526636,
+          "sha512": "3d55a158344dfb739b03bf610e414563278f777fe006049c2e4fe98e263c86598e3aeb449b2a09314627e04788c31ab5aa2b3b5ea6dbc2038305a0130e555905",
+          "sha256": "6daa0f1fb71f86cbfa2fd60ea1709930fa76d7248633455050626b95a46a4d14",
+          "sha1": "e1a2b021c8c045ed564290503175f235a6094eeb",
+          "md5": "ee7f2a50436a4132b24af0bcf15d48ae"
         }
       ]
     },
@@ -89,13 +89,13 @@
       },
       "files": [
         {
-          "name": "malilib-303119-22w17a-sources.jar",
-          "url": "malilib-303119-22w17a-sources.jar",
-          "size": 261593,
-          "sha512": "a4c9c04cff6c4fb29ae1cba11264b94a4ca42073643c8693d0edbd5219643627812dcad6ad2c6e476a585ab10f7c8bcb20286c2298546c387aef74dc12020ea9",
-          "sha256": "0da1718ca5047d0af69cb7c4f9cd2733b1b1634b140aaf17b7d4e7f750637ba2",
-          "sha1": "354286f616d4d00d0d943624c3489772ffaa3e7e",
-          "md5": "e518d43ec8914cfb6efd23614a41e303"
+          "name": "malilib-303119-1.19-sources.jar",
+          "url": "malilib-303119-1.19-sources.jar",
+          "size": 261654,
+          "sha512": "acf82f3e8594f50b753a463cae67cb9d84f6838dcc09dfc830da18d9030614127bcec534576adbfcd4c033fcfd34e01c7643ba6d2f72f157c88c8d63bb9ae8d5",
+          "sha256": "d077f0771f762c67ade9c233bba28f617be11a2a7ae94aef2b461b62013e277e",
+          "sha1": "9a8b406d7b6c589913e8707939de78e47f61cbac",
+          "md5": "0258594bca10e10ba805ce87c308b464"
         }
       ]
     }

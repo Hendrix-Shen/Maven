@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>curse.maven</groupId>
   <artifactId>malilib-303119</artifactId>
-  <version>0.12.1</version>
+  <version>1.19</version>
   <dependencies>
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
