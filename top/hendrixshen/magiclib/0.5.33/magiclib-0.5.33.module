@@ -27,11 +27,11 @@
         {
           "name": "magiclib-0.5.33.jar",
           "url": "magiclib-0.5.33.jar",
-          "size": 1421801,
-          "sha512": "333faa58fd940d94a88fc41aac74bd712d482a8a36ca135bb7cdfe98eb459392b250d0b4fa32e110d6ef281c7958f48e5f91eda372882512abfcbcd017af5889",
-          "sha256": "0087f595ee32df74222a9b08f44fbeedaf75340bbc2e7327249212abbb4c295d",
-          "sha1": "ddc6f018945dfeb4710a72c6ccc841ae995191ea",
-          "md5": "67f5f9e1995bceb200aa890e2e4b2744"
+          "size": 1422397,
+          "sha512": "3a26f351c1326a21e3685a3d53d9b8ed5a776c4557e59e545842a2b815054ffdaaeeb45b3fd04365ef0b9b8c68c19ba1df18829240bfe01b201d9666b18089d5",
+          "sha256": "36817448c3d6101d9aa3111c3bcb410ef0cd8417e1b592c91e81f6c233e51e25",
+          "sha1": "68968117f6b3ea8b423eac29e7cbd0b72a7e0f1e",
+          "md5": "91f2b51f8473cc8fc4499481d822d638"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "magiclib-0.5.33.jar",
           "url": "magiclib-0.5.33.jar",
-          "size": 1421801,
-          "sha512": "333faa58fd940d94a88fc41aac74bd712d482a8a36ca135bb7cdfe98eb459392b250d0b4fa32e110d6ef281c7958f48e5f91eda372882512abfcbcd017af5889",
-          "sha256": "0087f595ee32df74222a9b08f44fbeedaf75340bbc2e7327249212abbb4c295d",
-          "sha1": "ddc6f018945dfeb4710a72c6ccc841ae995191ea",
-          "md5": "67f5f9e1995bceb200aa890e2e4b2744"
+          "size": 1422397,
+          "sha512": "3a26f351c1326a21e3685a3d53d9b8ed5a776c4557e59e545842a2b815054ffdaaeeb45b3fd04365ef0b9b8c68c19ba1df18829240bfe01b201d9666b18089d5",
+          "sha256": "36817448c3d6101d9aa3111c3bcb410ef0cd8417e1b592c91e81f6c233e51e25",
+          "sha1": "68968117f6b3ea8b423eac29e7cbd0b72a7e0f1e",
+          "md5": "91f2b51f8473cc8fc4499481d822d638"
         }
       ]
     }
