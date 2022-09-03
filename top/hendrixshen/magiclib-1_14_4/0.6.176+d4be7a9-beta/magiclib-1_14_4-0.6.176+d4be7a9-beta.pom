@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>top.hendrixshen</groupId>
+  <artifactId>magiclib-1_14_4</artifactId>
+  <version>0.6.176+d4be7a9-beta</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.28.5+1.14</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.14.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>carpet-349239</artifactId>
+      <version>2870184</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>malilib-303119</artifactId>
+      <version>2876325</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>modmenu-308702</artifactId>
+      <version>3121565</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>top.hendrixshen</groupId>
+      <artifactId>magiclib</artifactId>
+      <version>0.6.176+d4be7a9-beta</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>auto-config-updated-api-373261</artifactId>
+      <version>2921052</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>cloth-config-348521</artifactId>
+      <version>3761403</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>in-game-account-switcher-232676</artifactId>
+      <version>3827447</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>lazydfu-433518</artifactId>
+      <version>3209972</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>imblockerfabric-399225</artifactId>
+      <version>3845251</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>smooth-boot-415758</artifactId>
+      <version>3159393</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
