@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen",
+    "module": "magiclib-1_15_2",
+    "version": "0.6.191+b8dbc1a-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.28.5+1.15"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "carpet-349239",
+          "version": {
+            "requires": "3030941"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "malilib-303119",
+          "version": {
+            "requires": "2942271"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "modmenu-308702",
+          "version": {
+            "requires": "3271693"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-1_15_2-0.6.191+b8dbc1a-beta.jar",
+          "url": "magiclib-1_15_2-0.6.191+b8dbc1a-beta.jar",
+          "size": 327356,
+          "sha512": "e66eabc65f2a5d89456efd41695e011ab2c13cddfa9be5446d8d16554a9d4974c8da4283338fd2d76fa6445706902b7f71feb2135806503728730ed1ad23eb7e",
+          "sha256": "55efd21b525793dcde614b7a133dbcf356df9ede5276e223fef33eddfb92404e",
+          "sha1": "fff994024923a5a8e32f7a4348ebd88428037c9e",
+          "md5": "3efa3e10ec92e1c1b269e0ac8fa76589"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen",
+          "module": "magiclib",
+          "version": {
+            "requires": "0.6.191+b8dbc1a-beta"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.28.5+1.15"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "carpet-349239",
+          "version": {
+            "requires": "3030941"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "malilib-303119",
+          "version": {
+            "requires": "2942271"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "modmenu-308702",
+          "version": {
+            "requires": "3271693"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "auto-config-updated-api-373261",
+          "version": {
+            "requires": "2959868"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "cloth-config-348521",
+          "version": {
+            "requires": "3761404"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "in-game-account-switcher-232676",
+          "version": {
+            "requires": "3827449"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "lazydfu-433518",
+          "version": {
+            "requires": "3209972"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "imblockerfabric-399225",
+          "version": {
+            "requires": "3845251"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "smooth-boot-415758",
+          "version": {
+            "requires": "3159390"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-1_15_2-0.6.191+b8dbc1a-beta.jar",
+          "url": "magiclib-1_15_2-0.6.191+b8dbc1a-beta.jar",
+          "size": 327356,
+          "sha512": "e66eabc65f2a5d89456efd41695e011ab2c13cddfa9be5446d8d16554a9d4974c8da4283338fd2d76fa6445706902b7f71feb2135806503728730ed1ad23eb7e",
+          "sha256": "55efd21b525793dcde614b7a133dbcf356df9ede5276e223fef33eddfb92404e",
+          "sha1": "fff994024923a5a8e32f7a4348ebd88428037c9e",
+          "md5": "3efa3e10ec92e1c1b269e0ac8fa76589"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "magiclib-1_15_2-0.6.191+b8dbc1a-beta-sources.jar",
+          "url": "magiclib-1_15_2-0.6.191+b8dbc1a-beta-sources.jar",
+          "size": 229293,
+          "sha512": "9c40834aac437190524a98e93af6c85afedb0be10e455e23b96825c89e3212dbae74c8602cf3fc9b39a517c9bf8357f48ed43c093909d142f269da13fdfe3e95",
+          "sha256": "390b6498a689ca6dde6ea0cb45b26e1c5573d3d8ca75f4a2c6c5bae593844a39",
+          "sha1": "2d9864b806d9ea306766f450acb2c8c0b516b1c8",
+          "md5": "f443a6a0d68b8d501f5bb417b580a84e"
+        }
+      ]
+    }
+  ]
+}
