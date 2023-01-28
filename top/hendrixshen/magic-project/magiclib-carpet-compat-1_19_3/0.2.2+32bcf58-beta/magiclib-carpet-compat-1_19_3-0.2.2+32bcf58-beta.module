@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen.magic-project",
+    "module": "magiclib-carpet-compat-1_19_3",
+    "version": "0.2.2+32bcf58-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-minecraft-compat-1_19_3",
+          "version": {
+            "requires": "0.5.2+32bcf58-beta"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "carpet-349239",
+          "version": {
+            "requires": "4279344"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-carpet-compat-1_19_3-0.2.2+32bcf58-beta.jar",
+          "url": "magiclib-carpet-compat-1_19_3-0.2.2+32bcf58-beta.jar",
+          "size": 144157,
+          "sha512": "f50e8bd886ff834f065fc952e3e3ad6343dd2a431abf377d39a5f4d3f7a0c0560f7c47306706c37b24c410471a9afc8ee8cf6b060f48c019d2ac413b4b5d35a0",
+          "sha256": "844fe650d793fbd081a8ab691aba350fb29da835fbc86b1c3682e4a61a12333d",
+          "sha1": "454bfe6b17ee9cf40435f39c9e8e4e53891656a7",
+          "md5": "a71137787fcf48f8f36282702e2bd187"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-minecraft-compat-1_19_3",
+          "version": {
+            "requires": "0.5.2+32bcf58-beta"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "carpet-349239",
+          "version": {
+            "requires": "4279344"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-carpet-compat-1_19_3-0.2.2+32bcf58-beta.jar",
+          "url": "magiclib-carpet-compat-1_19_3-0.2.2+32bcf58-beta.jar",
+          "size": 144157,
+          "sha512": "f50e8bd886ff834f065fc952e3e3ad6343dd2a431abf377d39a5f4d3f7a0c0560f7c47306706c37b24c410471a9afc8ee8cf6b060f48c019d2ac413b4b5d35a0",
+          "sha256": "844fe650d793fbd081a8ab691aba350fb29da835fbc86b1c3682e4a61a12333d",
+          "sha1": "454bfe6b17ee9cf40435f39c9e8e4e53891656a7",
+          "md5": "a71137787fcf48f8f36282702e2bd187"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-minecraft-compat-1_19_3",
+          "version": {
+            "requires": "0.5.2+32bcf58-beta"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "curse.maven",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-carpet-compat-1_19_3-0.2.2+32bcf58-beta-standalone-dev.jar",
+          "url": "magiclib-carpet-compat-1_19_3-0.2.2+32bcf58-beta-standalone-dev.jar",
+          "size": 536883,
+          "sha512": "4793eb325e7af0fb71fb337dbdeea4c7f87136186c6af700981daf535f7e22d2e107db333dbd9d8125297b559aa202f88f3f9960c53f44019fbe3af133278525",
+          "sha256": "7f63d8eb1eb24a44a04f0d58e056c44c85ca3133f0de8cd7ce5f0d2b73ebe541",
+          "sha1": "024d84b80d49142a8d0bf505d1835593e2a74b1c",
+          "md5": "6f37bc7dcc0571331bd93a82be9bddaa"
+        }
+      ]
+    }
+  ]
+}

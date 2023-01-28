@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>top.hendrixshen.magic-project</groupId>
+  <artifactId>magiclib-malilib-extra-1_14_4</artifactId>
+  <version>0.7.2+32bcf58-beta</version>
+  <dependencies>
+    <dependency>
+      <groupId>top.hendrixshen.magic-project</groupId>
+      <artifactId>magiclib-base-1_14_4</artifactId>
+      <version>0.7.2+32bcf58-beta</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>curse.maven</groupId>
+      <artifactId>malilib-303119</artifactId>
+      <version>2876325</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>top.hendrixshen.magic-project</groupId>
+      <artifactId>magiclib-base-1_14_4</artifactId>
+      <version>0.7.2+32bcf58-beta</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>net.fabricmc.fabric-api</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>net.fabricmc</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>curse.maven</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

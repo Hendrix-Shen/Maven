@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen.magic-project",
+    "module": "magiclib-malilib-extra-1_14_4",
+    "version": "0.7.2+32bcf58-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_14_4",
+          "version": {
+            "requires": "0.7.2+32bcf58-beta"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "malilib-303119",
+          "version": {
+            "requires": "2876325"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-malilib-extra-1_14_4-0.7.2+32bcf58-beta.jar",
+          "url": "magiclib-malilib-extra-1_14_4-0.7.2+32bcf58-beta.jar",
+          "size": 157464,
+          "sha512": "64f0fd98fe25897af5b7ac8a4cb31b004310450db868fbfbe00312d0d9d221f3762bc6b9a19de42ca69e8413d73defd7942055766b649846aa7d1c24b7e0fb44",
+          "sha256": "3d9ebccbbec9f599acca3a046ebb9acdbf5ce47351f8c126c1db8be9a7933c21",
+          "sha1": "7296fd7c6f80507c0ca55b10a7163c7eb8554589",
+          "md5": "90e21397b97a4871ed826a116302ae64"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_14_4",
+          "version": {
+            "requires": "0.7.2+32bcf58-beta"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "malilib-303119",
+          "version": {
+            "requires": "2876325"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-malilib-extra-1_14_4-0.7.2+32bcf58-beta.jar",
+          "url": "magiclib-malilib-extra-1_14_4-0.7.2+32bcf58-beta.jar",
+          "size": 157464,
+          "sha512": "64f0fd98fe25897af5b7ac8a4cb31b004310450db868fbfbe00312d0d9d221f3762bc6b9a19de42ca69e8413d73defd7942055766b649846aa7d1c24b7e0fb44",
+          "sha256": "3d9ebccbbec9f599acca3a046ebb9acdbf5ce47351f8c126c1db8be9a7933c21",
+          "sha1": "7296fd7c6f80507c0ca55b10a7163c7eb8554589",
+          "md5": "90e21397b97a4871ed826a116302ae64"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_14_4",
+          "version": {
+            "requires": "0.7.2+32bcf58-beta"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "curse.maven",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-malilib-extra-1_14_4-0.7.2+32bcf58-beta-standalone-dev.jar",
+          "url": "magiclib-malilib-extra-1_14_4-0.7.2+32bcf58-beta-standalone-dev.jar",
+          "size": 412590,
+          "sha512": "283fca59953e3e0badab38e730da761f8f1362686ae12eb36839ee0d99e09e2c4643fcad5afcb9da9b1012d6844f25b58aa8a5ca535af7ae7e963d03c9447c88",
+          "sha256": "ada06b24e301ad573774dd1489dd9de8580550d89f78d34d3fc31fc25569dfe3",
+          "sha1": "98a844a9fc4b5226a837e86b419f8c69d5a7603b",
+          "md5": "8640b6876e0813f3954d216913e617ca"
+        }
+      ]
+    }
+  ]
+}

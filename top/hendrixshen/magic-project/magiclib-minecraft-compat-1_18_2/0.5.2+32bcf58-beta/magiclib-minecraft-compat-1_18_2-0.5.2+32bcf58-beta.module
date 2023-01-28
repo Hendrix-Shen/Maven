@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen.magic-project",
+    "module": "magiclib-minecraft-compat-1_18_2",
+    "version": "0.5.2+32bcf58-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_18_2",
+          "version": {
+            "requires": "0.7.2+32bcf58-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-minecraft-compat-1_18_2-0.5.2+32bcf58-beta.jar",
+          "url": "magiclib-minecraft-compat-1_18_2-0.5.2+32bcf58-beta.jar",
+          "size": 142128,
+          "sha512": "eb391e963b035eb69259a6c1201059276d2bc49e4514efcb78eb7bf77660f09fb757dc19fa7c84f9eb9ef29a0af11c2a54f1030fa5c07281640094a602b66b4e",
+          "sha256": "6a1161e9dd63aa2567b721608081778239dbbe26c99b69a6a8147c4cf2b42fe3",
+          "sha1": "01c6cc566823001e9cc8dbbc501c8550e97c7f3f",
+          "md5": "81db03e2396c2aab928a1f8e21aede61"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_18_2",
+          "version": {
+            "requires": "0.7.2+32bcf58-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-minecraft-compat-1_18_2-0.5.2+32bcf58-beta.jar",
+          "url": "magiclib-minecraft-compat-1_18_2-0.5.2+32bcf58-beta.jar",
+          "size": 142128,
+          "sha512": "eb391e963b035eb69259a6c1201059276d2bc49e4514efcb78eb7bf77660f09fb757dc19fa7c84f9eb9ef29a0af11c2a54f1030fa5c07281640094a602b66b4e",
+          "sha256": "6a1161e9dd63aa2567b721608081778239dbbe26c99b69a6a8147c4cf2b42fe3",
+          "sha1": "01c6cc566823001e9cc8dbbc501c8550e97c7f3f",
+          "md5": "81db03e2396c2aab928a1f8e21aede61"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_18_2",
+          "version": {
+            "requires": "0.7.2+32bcf58-beta"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "curse.maven",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-minecraft-compat-1_18_2-0.5.2+32bcf58-beta-standalone-dev.jar",
+          "url": "magiclib-minecraft-compat-1_18_2-0.5.2+32bcf58-beta-standalone-dev.jar",
+          "size": 395367,
+          "sha512": "549da43eeeb664732be3dd9f125610de75599bb069e3b62cfdad65da96d5d6e1433c42e79e5c83e6b1e739d83098f364b7ea576163e0d505467edb60dc13a70e",
+          "sha256": "605ae5c4cf7590a40a29e7713238abff928aa920456dffb2175b86787603f525",
+          "sha1": "4333b0fff499041039b2e67c52d7e2cbbad7b7e1",
+          "md5": "a07f8de68a97f4073d096e14f37c5953"
+        }
+      ]
+    }
+  ]
+}

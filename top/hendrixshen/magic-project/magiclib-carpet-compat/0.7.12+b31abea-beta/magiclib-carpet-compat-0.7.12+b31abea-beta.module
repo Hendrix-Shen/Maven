@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen.magic-project",
+    "module": "magiclib-carpet-compat",
+    "version": "0.7.12+b31abea-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
+          "url": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
+          "size": 911805,
+          "sha512": "2969193f6d1b1c95cfc7281abcadc0979aa9533f51a9dee77ec15c3f8ee3da17c35079e0a3e1bf3137b06c265fe86541cbb3cc8502b6510c8310e0e06b4e8c5d",
+          "sha256": "ac100f7bec48a58fe5187eb440e067071acd82f10a5984364c32c408e7c7451c",
+          "sha1": "0f26013550fe947f76d64ede9b3dcc889720d4a0",
+          "md5": "74242823b4589a5e8bc38018761595c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
+          "url": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
+          "size": 911805,
+          "sha512": "2969193f6d1b1c95cfc7281abcadc0979aa9533f51a9dee77ec15c3f8ee3da17c35079e0a3e1bf3137b06c265fe86541cbb3cc8502b6510c8310e0e06b4e8c5d",
+          "sha256": "ac100f7bec48a58fe5187eb440e067071acd82f10a5984364c32c408e7c7451c",
+          "sha1": "0f26013550fe947f76d64ede9b3dcc889720d4a0",
+          "md5": "74242823b4589a5e8bc38018761595c9"
+        }
+      ]
+    }
+  ]
+}

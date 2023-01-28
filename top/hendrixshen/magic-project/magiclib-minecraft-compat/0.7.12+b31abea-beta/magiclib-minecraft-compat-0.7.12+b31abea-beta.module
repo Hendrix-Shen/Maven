@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen.magic-project",
+    "module": "magiclib-minecraft-compat",
+    "version": "0.7.12+b31abea-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
+          "url": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
+          "size": 842506,
+          "sha512": "19a4e1efe20dc9c994865c29a16ff55a27d7a40f0ab8a61d4b4fea27ff2b23d35ad3f6ac343b60265c1bd1ee6b02f4be79aa973d050b8bb0e2ab6b2045859c7a",
+          "sha256": "d48423db070bc2abc74bd934bfe8196a2ceb3df02704cabb0d776127a1c1a894",
+          "sha1": "9fb313238a258a36715e9540e584b61f9b35e51f",
+          "md5": "2fcf5428fe08c6eb0703e0250d41c500"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
+          "url": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
+          "size": 842506,
+          "sha512": "19a4e1efe20dc9c994865c29a16ff55a27d7a40f0ab8a61d4b4fea27ff2b23d35ad3f6ac343b60265c1bd1ee6b02f4be79aa973d050b8bb0e2ab6b2045859c7a",
+          "sha256": "d48423db070bc2abc74bd934bfe8196a2ceb3df02704cabb0d776127a1c1a894",
+          "sha1": "9fb313238a258a36715e9540e584b61f9b35e51f",
+          "md5": "2fcf5428fe08c6eb0703e0250d41c500"
+        }
+      ]
+    }
+  ]
+}
