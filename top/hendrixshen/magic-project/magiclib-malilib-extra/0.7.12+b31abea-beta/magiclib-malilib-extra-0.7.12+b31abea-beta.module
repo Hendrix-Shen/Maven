@@ -27,11 +27,11 @@
         {
           "name": "magiclib-malilib-extra-0.7.12+b31abea-beta.jar",
           "url": "magiclib-malilib-extra-0.7.12+b31abea-beta.jar",
-          "size": 976865,
-          "sha512": "1a0e15f0423a1ea6043bd42a2f501b6609b87086c534437900372e120caf941b896c7e40bb3d53f9c796a2a3644119fec2a0857fb25fd48984ebd5548fb3259c",
-          "sha256": "a9cb5ebb7c86e5da4c323896e2032b5b35c419ff2a20cdeae23d1605ff9ae9f6",
-          "sha1": "8e23ba24dce189a439d0cc3eb9a1aeffcd41d7ce",
-          "md5": "68e47585e4f7d698a38e9df7fd3ff9c1"
+          "size": 977275,
+          "sha512": "b83a73b0e44ab08c11428a9341a6adf2f2804599e23fc6d11cfccb584ae7033a0d7ec00489e6c8531bbcb7e8bc5f44e7cacbd160b3dbe522b784ce5b791cac0a",
+          "sha256": "0f61c3df7bb7fd89d961c8bb9e134bcb16760740d32c51912c2f9f67cb38da7d",
+          "sha1": "9f57a5d6a4a960456d659a8f5b582ae1a8522dbf",
+          "md5": "d3ebeabbb1a8172f9d026009900f37c9"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "magiclib-malilib-extra-0.7.12+b31abea-beta.jar",
           "url": "magiclib-malilib-extra-0.7.12+b31abea-beta.jar",
-          "size": 976865,
-          "sha512": "1a0e15f0423a1ea6043bd42a2f501b6609b87086c534437900372e120caf941b896c7e40bb3d53f9c796a2a3644119fec2a0857fb25fd48984ebd5548fb3259c",
-          "sha256": "a9cb5ebb7c86e5da4c323896e2032b5b35c419ff2a20cdeae23d1605ff9ae9f6",
-          "sha1": "8e23ba24dce189a439d0cc3eb9a1aeffcd41d7ce",
-          "md5": "68e47585e4f7d698a38e9df7fd3ff9c1"
+          "size": 977275,
+          "sha512": "b83a73b0e44ab08c11428a9341a6adf2f2804599e23fc6d11cfccb584ae7033a0d7ec00489e6c8531bbcb7e8bc5f44e7cacbd160b3dbe522b784ce5b791cac0a",
+          "sha256": "0f61c3df7bb7fd89d961c8bb9e134bcb16760740d32c51912c2f9f67cb38da7d",
+          "sha1": "9f57a5d6a4a960456d659a8f5b582ae1a8522dbf",
+          "md5": "d3ebeabbb1a8172f9d026009900f37c9"
         }
       ]
     }

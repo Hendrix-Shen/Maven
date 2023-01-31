@@ -37,10 +37,10 @@
           "name": "magiclib-minecraft-compat-1_17_1-0.5.2+32bcf58-beta.jar",
           "url": "magiclib-minecraft-compat-1_17_1-0.5.2+32bcf58-beta.jar",
           "size": 142140,
-          "sha512": "33b2ec565463459b13d0cabffd516c0c84916f751e19c67598c441ca6234c30e8f856763520f960365bc05be5e9e80dbbfac208b9cc538496e1886e2d20321ff",
-          "sha256": "a5f6f063bf5ea80fd8b3ac62b4e41b1c3c6545fc2bcab8ddf0176776a1ab7cb2",
-          "sha1": "b7417b4a73d2f8df31c7dc6cb772680bd1cd4b90",
-          "md5": "4c9e845baa55bfc4aac2e85a3129eff3"
+          "sha512": "c5c6d14a1d040b96031e74f40bb52027977d4de915189bc69b2d4a65f24681e02423d9b3eac2d3126ec1c0fa259d6f088b671f9f1756b811aa9663e4f26c6acb",
+          "sha256": "3d987e2ac7cfff75d7a0baef34900c44a46dcab16f63b81b95c8a5edbfa35479",
+          "sha1": "0522ea2fe60da69f399b14fb719ee07320aeb161",
+          "md5": "93826de3f57d88793266bc189b4dec75"
         }
       ]
     },
@@ -67,10 +67,10 @@
           "name": "magiclib-minecraft-compat-1_17_1-0.5.2+32bcf58-beta.jar",
           "url": "magiclib-minecraft-compat-1_17_1-0.5.2+32bcf58-beta.jar",
           "size": 142140,
-          "sha512": "33b2ec565463459b13d0cabffd516c0c84916f751e19c67598c441ca6234c30e8f856763520f960365bc05be5e9e80dbbfac208b9cc538496e1886e2d20321ff",
-          "sha256": "a5f6f063bf5ea80fd8b3ac62b4e41b1c3c6545fc2bcab8ddf0176776a1ab7cb2",
-          "sha1": "b7417b4a73d2f8df31c7dc6cb772680bd1cd4b90",
-          "md5": "4c9e845baa55bfc4aac2e85a3129eff3"
+          "sha512": "c5c6d14a1d040b96031e74f40bb52027977d4de915189bc69b2d4a65f24681e02423d9b3eac2d3126ec1c0fa259d6f088b671f9f1756b811aa9663e4f26c6acb",
+          "sha256": "3d987e2ac7cfff75d7a0baef34900c44a46dcab16f63b81b95c8a5edbfa35479",
+          "sha1": "0522ea2fe60da69f399b14fb719ee07320aeb161",
+          "md5": "93826de3f57d88793266bc189b4dec75"
         }
       ]
     },
@@ -110,10 +110,10 @@
           "name": "magiclib-minecraft-compat-1_17_1-0.5.2+32bcf58-beta-standalone-dev.jar",
           "url": "magiclib-minecraft-compat-1_17_1-0.5.2+32bcf58-beta-standalone-dev.jar",
           "size": 395383,
-          "sha512": "f2190b310fffd7c591c094e67e54671e329e7db55fb526634f2ee1e10ccf71d1e963fbf8b346a783c2f5f90dead8ed4687f02f7a3ef09ed3c71832d7db921f2d",
-          "sha256": "d88038b77b30543b12aa9325373e793933db9718d528cd667e7bfbfd13e1c8b3",
-          "sha1": "1cf5e05a6c01020152efb5a7601c715084017ee0",
-          "md5": "d7c64265dc9fdc5604099eb9ba5be777"
+          "sha512": "2dcc598bc6fb817b5a31f7010c04a5707f5c9aa0fc56b2d84de451a6422461062f0855417be2241febd392991a7a6d7707b5cd00ff8f5d74a4efad2cfaed606c",
+          "sha256": "e5998f1849be119f78eb992f0286413b5781dfb9335427da403416b536ab1cad",
+          "sha1": "0393634ffc506842dec4ea295864ff4f0dbd92bd",
+          "md5": "19a7a2b72bb3924ff15088f449d34127"
         }
       ]
     }

@@ -44,10 +44,10 @@
           "name": "magiclib-carpet-compat-1_16_5-0.2.2+32bcf58-beta.jar",
           "url": "magiclib-carpet-compat-1_16_5-0.2.2+32bcf58-beta.jar",
           "size": 144688,
-          "sha512": "64f86901c10f1da28b66b7702a3e71cad8152999d6a5c724323748b8bdcfbf50455b4d53731a896544c1b36526e802167affa9ac35ba299a83e7473239646f22",
-          "sha256": "cf81c44dabf233b2b22208e463671719868e94d711602bd3ee89deef52b99e78",
-          "sha1": "0dbc94ac383f6bea8904027f81edf0ed17ba2549",
-          "md5": "0db45aeb19f8675851cdd034a671f339"
+          "sha512": "7f87337c05a280684933dcfad7484ee5f39a0d05fa0b34149ceb8c96ddf3f8d1f5efcde81baf6375f5472aeb8e7cc137de75d4d3eebc5c2e7429e18e5a94ba76",
+          "sha256": "ca552f5860fd77ff2b8c38ca76b36c5a6c8a3d44d48e4e66fb200cfadf9a6349",
+          "sha1": "b962279bb5949a8804299fb35f7a21e99f430c06",
+          "md5": "fb0bdffd1b5826fd7460cbcb5aab61c2"
         }
       ]
     },
@@ -81,10 +81,10 @@
           "name": "magiclib-carpet-compat-1_16_5-0.2.2+32bcf58-beta.jar",
           "url": "magiclib-carpet-compat-1_16_5-0.2.2+32bcf58-beta.jar",
           "size": 144688,
-          "sha512": "64f86901c10f1da28b66b7702a3e71cad8152999d6a5c724323748b8bdcfbf50455b4d53731a896544c1b36526e802167affa9ac35ba299a83e7473239646f22",
-          "sha256": "cf81c44dabf233b2b22208e463671719868e94d711602bd3ee89deef52b99e78",
-          "sha1": "0dbc94ac383f6bea8904027f81edf0ed17ba2549",
-          "md5": "0db45aeb19f8675851cdd034a671f339"
+          "sha512": "7f87337c05a280684933dcfad7484ee5f39a0d05fa0b34149ceb8c96ddf3f8d1f5efcde81baf6375f5472aeb8e7cc137de75d4d3eebc5c2e7429e18e5a94ba76",
+          "sha256": "ca552f5860fd77ff2b8c38ca76b36c5a6c8a3d44d48e4e66fb200cfadf9a6349",
+          "sha1": "b962279bb5949a8804299fb35f7a21e99f430c06",
+          "md5": "fb0bdffd1b5826fd7460cbcb5aab61c2"
         }
       ]
     },
@@ -124,10 +124,10 @@
           "name": "magiclib-carpet-compat-1_16_5-0.2.2+32bcf58-beta-standalone-dev.jar",
           "url": "magiclib-carpet-compat-1_16_5-0.2.2+32bcf58-beta-standalone-dev.jar",
           "size": 538850,
-          "sha512": "a16f56a0aa59a650ab9a597b91673446ee5bd46ae4bc7a574af8e84bc72eacb3e0a46d19f496307dde6769255da2c6ccbe0eb645f5bc3064442c40c23452919b",
-          "sha256": "1f575876326ffc844a783f7879655d04234d0342b71bee2e70f893c54cc1c23d",
-          "sha1": "19d06853ac4e41ed3cac3dc792c99628a718a65e",
-          "md5": "722ea1b757c21f7c82d5a40e0ab79d73"
+          "sha512": "fec351dee786604fd967389e8a75ef88a4ed610d5e33ed250535abf7d871fd3960fbe17e0a7890e32e79a99d68c41fa4076414f4f2ef6914b1fc24b4074b74a1",
+          "sha256": "66001f417d654e211a3689f901132fde1945710e3c6575e0e34e1c081a3aec68",
+          "sha1": "772c84c1634a820c0b5963b4047ea3b7db13a3cd",
+          "md5": "326dbccd76c54150b74f5f4e2833a6ff"
         }
       ]
     }

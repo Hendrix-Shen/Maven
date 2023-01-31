@@ -27,11 +27,11 @@
         {
           "name": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
           "url": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
-          "size": 842506,
-          "sha512": "19a4e1efe20dc9c994865c29a16ff55a27d7a40f0ab8a61d4b4fea27ff2b23d35ad3f6ac343b60265c1bd1ee6b02f4be79aa973d050b8bb0e2ab6b2045859c7a",
-          "sha256": "d48423db070bc2abc74bd934bfe8196a2ceb3df02704cabb0d776127a1c1a894",
-          "sha1": "9fb313238a258a36715e9540e584b61f9b35e51f",
-          "md5": "2fcf5428fe08c6eb0703e0250d41c500"
+          "size": 842709,
+          "sha512": "684cc449cda7b28818fc8cf0d4477dc8e8ec5da49160a6b7f11a24f0b3c05f112245142209823b206c3f75e05830c7de900c340ec19f7123960e7862e5aded9b",
+          "sha256": "f160c9177edb42e093f8f3d72c05aec96f6297986d33ad5864a868fd38703f40",
+          "sha1": "a508b5c2476713ea7b1165154212d040e89f5ba5",
+          "md5": "81077bacece97d78019b3af678255901"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
           "url": "magiclib-minecraft-compat-0.7.12+b31abea-beta.jar",
-          "size": 842506,
-          "sha512": "19a4e1efe20dc9c994865c29a16ff55a27d7a40f0ab8a61d4b4fea27ff2b23d35ad3f6ac343b60265c1bd1ee6b02f4be79aa973d050b8bb0e2ab6b2045859c7a",
-          "sha256": "d48423db070bc2abc74bd934bfe8196a2ceb3df02704cabb0d776127a1c1a894",
-          "sha1": "9fb313238a258a36715e9540e584b61f9b35e51f",
-          "md5": "2fcf5428fe08c6eb0703e0250d41c500"
+          "size": 842709,
+          "sha512": "684cc449cda7b28818fc8cf0d4477dc8e8ec5da49160a6b7f11a24f0b3c05f112245142209823b206c3f75e05830c7de900c340ec19f7123960e7862e5aded9b",
+          "sha256": "f160c9177edb42e093f8f3d72c05aec96f6297986d33ad5864a868fd38703f40",
+          "sha1": "a508b5c2476713ea7b1165154212d040e89f5ba5",
+          "md5": "81077bacece97d78019b3af678255901"
         }
       ]
     }

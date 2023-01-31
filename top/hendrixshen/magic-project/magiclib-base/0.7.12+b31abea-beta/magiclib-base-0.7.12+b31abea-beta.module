@@ -27,11 +27,11 @@
         {
           "name": "magiclib-base-0.7.12+b31abea-beta.jar",
           "url": "magiclib-base-0.7.12+b31abea-beta.jar",
-          "size": 779898,
-          "sha512": "a79f90ff4c2ba4923d49c52e63ae9cc67919c4120b769c9d60a19333d3db0fcdbdaef75583f7de7d62b053961cdec2deb6f1075ec7a8bdcca3dc0073fecf1f83",
-          "sha256": "0cd66a7508ce49d7e4b6ed0f98ee7c0d91a8be1a477feb645492c98a6230d7fd",
-          "sha1": "486cdc112332e399224d53a24dae6208f81f8179",
-          "md5": "7b45137a6419829ddc7623a309a0cad7"
+          "size": 779900,
+          "sha512": "a4d76eb585a0515c85d11be7c4c5ad4a24e94e4db619f7ba35c7150eceff8ffd838d6db0c41ad4e2c953405ced83eb62d8bab822b987685ca1023f71a7d537bc",
+          "sha256": "219a0cac71cf5e6798d302a91be6c88363307ed58466386e729d63dfc0440ce4",
+          "sha1": "06971c5bcf78addc463deb0fb71463e9f46495aa",
+          "md5": "4b336798b61d3bd9f9e4289529868652"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "magiclib-base-0.7.12+b31abea-beta.jar",
           "url": "magiclib-base-0.7.12+b31abea-beta.jar",
-          "size": 779898,
-          "sha512": "a79f90ff4c2ba4923d49c52e63ae9cc67919c4120b769c9d60a19333d3db0fcdbdaef75583f7de7d62b053961cdec2deb6f1075ec7a8bdcca3dc0073fecf1f83",
-          "sha256": "0cd66a7508ce49d7e4b6ed0f98ee7c0d91a8be1a477feb645492c98a6230d7fd",
-          "sha1": "486cdc112332e399224d53a24dae6208f81f8179",
-          "md5": "7b45137a6419829ddc7623a309a0cad7"
+          "size": 779900,
+          "sha512": "a4d76eb585a0515c85d11be7c4c5ad4a24e94e4db619f7ba35c7150eceff8ffd838d6db0c41ad4e2c953405ced83eb62d8bab822b987685ca1023f71a7d537bc",
+          "sha256": "219a0cac71cf5e6798d302a91be6c88363307ed58466386e729d63dfc0440ce4",
+          "sha1": "06971c5bcf78addc463deb0fb71463e9f46495aa",
+          "md5": "4b336798b61d3bd9f9e4289529868652"
         }
       ]
     }

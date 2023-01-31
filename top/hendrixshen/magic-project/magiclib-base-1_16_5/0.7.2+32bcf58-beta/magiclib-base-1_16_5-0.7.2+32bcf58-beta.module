@@ -51,10 +51,10 @@
           "name": "magiclib-base-1_16_5-0.7.2+32bcf58-beta.jar",
           "url": "magiclib-base-1_16_5-0.7.2+32bcf58-beta.jar",
           "size": 119659,
-          "sha512": "df975e1bb3602834bcbb51e855e98d45326b2066ff7b91bec2795965dedc2f5434b7d3a43eb14cb80f4a0171bf87af60436d0351c512629be7411f71d0fb6a31",
-          "sha256": "a88d5f1f488cdf0bc22ae414dfc239259362446173d6249bf110298f3b0196b6",
-          "sha1": "0e7cd562c0ea9727b646ccbb8ae755785783f355",
-          "md5": "8cf16084cf74f4f88b5aa96b73a5f2a2"
+          "sha512": "e0e2bbbf07e34371439c85e1ea93b5bbf56eb5b686e2896d67ab48639fe935037406f7a3561db6e462efc0cc31d3cad5b835702fa3e38251aab9f0076af040b9",
+          "sha256": "8335382cc88faa6f80b392de80176fa1d0ce616865d731abe51f6bf587b78177",
+          "sha1": "3699c13f34479f9e068dca724a01686f61453a3a",
+          "md5": "9d56e69fb0e7deae28a1aa555a58328f"
         }
       ]
     },
@@ -123,10 +123,10 @@
           "name": "magiclib-base-1_16_5-0.7.2+32bcf58-beta.jar",
           "url": "magiclib-base-1_16_5-0.7.2+32bcf58-beta.jar",
           "size": 119659,
-          "sha512": "df975e1bb3602834bcbb51e855e98d45326b2066ff7b91bec2795965dedc2f5434b7d3a43eb14cb80f4a0171bf87af60436d0351c512629be7411f71d0fb6a31",
-          "sha256": "a88d5f1f488cdf0bc22ae414dfc239259362446173d6249bf110298f3b0196b6",
-          "sha1": "0e7cd562c0ea9727b646ccbb8ae755785783f355",
-          "md5": "8cf16084cf74f4f88b5aa96b73a5f2a2"
+          "sha512": "e0e2bbbf07e34371439c85e1ea93b5bbf56eb5b686e2896d67ab48639fe935037406f7a3561db6e462efc0cc31d3cad5b835702fa3e38251aab9f0076af040b9",
+          "sha256": "8335382cc88faa6f80b392de80176fa1d0ce616865d731abe51f6bf587b78177",
+          "sha1": "3699c13f34479f9e068dca724a01686f61453a3a",
+          "md5": "9d56e69fb0e7deae28a1aa555a58328f"
         }
       ]
     },
@@ -158,10 +158,10 @@
           "name": "magiclib-base-1_16_5-0.7.2+32bcf58-beta-standalone-dev.jar",
           "url": "magiclib-base-1_16_5-0.7.2+32bcf58-beta-standalone-dev.jar",
           "size": 260112,
-          "sha512": "bb366c2f38b8545cea26571cecd0307cb361ffa28b7d1c46bb476864d5b4cd5aafa55d454b3ad14107c3b511a6b9c57f50af2eae8bfe2a3dbde75c8b24c11529",
-          "sha256": "2786246c9947fa34427c25fd84951652f82b24840d6c613fb4c6b6d919553b69",
-          "sha1": "ac8adec2af59ea6257ace64764b60077b5ae05dd",
-          "md5": "3926259bcb3d804397a65ff8042cf96c"
+          "sha512": "134ccddb6ea6e47059ac204ddff5350b9a36e8bb8d1f289163f939cf285246c23a40b52ea854e6df75e791bd11910bb21524cc3b027215953de7268a050fb6de",
+          "sha256": "86b07319686648798badb42583fb2c02407f217158eb4e98b5ffe627267a7ff9",
+          "sha1": "386f4f8135ffd72b8cbbfdbab9e24e61e7dc8b67",
+          "md5": "63509e66f59ac2894d1cd5d4c40b5532"
         }
       ]
     }

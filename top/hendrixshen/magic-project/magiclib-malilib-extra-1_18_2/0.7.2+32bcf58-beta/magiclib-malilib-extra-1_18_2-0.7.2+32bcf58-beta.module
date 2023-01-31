@@ -44,10 +44,10 @@
           "name": "magiclib-malilib-extra-1_18_2-0.7.2+32bcf58-beta.jar",
           "url": "magiclib-malilib-extra-1_18_2-0.7.2+32bcf58-beta.jar",
           "size": 159602,
-          "sha512": "752dfcd1102564de569c0915ce1404e81cc2552f5c660e590014bc19884edfcf60aa7f054f5a7662127595637b43d8a6a5d68b1996e3c96d49ec53bea40b6b7c",
-          "sha256": "bc3b6ced3d031c210c351a239ab3e4a05d641b41201b2e4109a48382d937f999",
-          "sha1": "98f072877bad643ed2c6061dfdd2c31939c06c27",
-          "md5": "ddaf0aeb72174f6a300a2e28f761dc6a"
+          "sha512": "29f124232828beeab7b281f54b11acf60fbaa85dd5347e4b23bbe268eef2d9e7556145e73540b08f459c751ae1187ba326612a9d7faa25a06fb8b9da20d0a499",
+          "sha256": "890980faf000b96f0b84254c26be361450ccbb60c2c45c04bc935f674f78c409",
+          "sha1": "5c7b797ddebdf452db7c9dcd04cc533abfaf3273",
+          "md5": "6165ee232ba3b0ce9cce68ad53929484"
         }
       ]
     },
@@ -81,10 +81,10 @@
           "name": "magiclib-malilib-extra-1_18_2-0.7.2+32bcf58-beta.jar",
           "url": "magiclib-malilib-extra-1_18_2-0.7.2+32bcf58-beta.jar",
           "size": 159602,
-          "sha512": "752dfcd1102564de569c0915ce1404e81cc2552f5c660e590014bc19884edfcf60aa7f054f5a7662127595637b43d8a6a5d68b1996e3c96d49ec53bea40b6b7c",
-          "sha256": "bc3b6ced3d031c210c351a239ab3e4a05d641b41201b2e4109a48382d937f999",
-          "sha1": "98f072877bad643ed2c6061dfdd2c31939c06c27",
-          "md5": "ddaf0aeb72174f6a300a2e28f761dc6a"
+          "sha512": "29f124232828beeab7b281f54b11acf60fbaa85dd5347e4b23bbe268eef2d9e7556145e73540b08f459c751ae1187ba326612a9d7faa25a06fb8b9da20d0a499",
+          "sha256": "890980faf000b96f0b84254c26be361450ccbb60c2c45c04bc935f674f78c409",
+          "sha1": "5c7b797ddebdf452db7c9dcd04cc533abfaf3273",
+          "md5": "6165ee232ba3b0ce9cce68ad53929484"
         }
       ]
     },
@@ -124,10 +124,10 @@
           "name": "magiclib-malilib-extra-1_18_2-0.7.2+32bcf58-beta-standalone-dev.jar",
           "url": "magiclib-malilib-extra-1_18_2-0.7.2+32bcf58-beta-standalone-dev.jar",
           "size": 415079,
-          "sha512": "e444ffbb0c5f8d63e982dcb20505ba0fca8a12b4924f220e5333b26cc06e73e0e98a7f301071f182cc9acf910832f988cd7e52c83637cf577623ffe27af4919e",
-          "sha256": "58e0c3d18932f848c3e7deee5ccf9712fa0e3a966e1d84dc6741057f2952385c",
-          "sha1": "44c4ff5eeb866271769df2f3717b668f673ef8f7",
-          "md5": "cf64fb9f9359563ac59484a60af111df"
+          "sha512": "fe3631c6f671f44d23b462f2fc27271b3d486f2b8fb6401c4cda601931047f80c70218ceb955463880f5c1b6575a03c2d352f531d7f65359af1150e6f4fa7a3b",
+          "sha256": "95ff07c04b81c7e157cd7a952496f4c600660ec77becc948a3bc2f0dcd7d944c",
+          "sha1": "78b36151e090587fe8390aa5eb6778999f878b1f",
+          "md5": "c2aa461f0456c975e78e8f6696ef5582"
         }
       ]
     }
