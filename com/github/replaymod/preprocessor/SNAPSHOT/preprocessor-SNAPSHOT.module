@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.replaymod",
+    "module": "preprocessor",
+    "version": "SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "preprocessor-SNAPSHOT.jar",
+          "url": "preprocessor-SNAPSHOT.jar",
+          "size": 139400,
+          "sha512": "99a4ab1c75a35cba8a4b22d54cc900be71c74f16457b12486b4b2669d68c1b49c907b6a80245cfa38639daa33270995a573e9b6ff8b9799c8ee2690f1f32dc42",
+          "sha256": "e2d86e75e1959b1a11fcf094293454881a1db92b5fa45c2581d0402fda362920",
+          "sha1": "00a5fcf00b52bfc5ef4974d263be07a7979ef1b7",
+          "md5": "e2b6907dba5179d3a276981a86b82b15"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ReplayMod",
+          "module": "remap",
+          "version": {
+            "requires": "97d6082"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.2.1.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "preprocessor-SNAPSHOT.jar",
+          "url": "preprocessor-SNAPSHOT.jar",
+          "size": 139400,
+          "sha512": "99a4ab1c75a35cba8a4b22d54cc900be71c74f16457b12486b4b2669d68c1b49c907b6a80245cfa38639daa33270995a573e9b6ff8b9799c8ee2690f1f32dc42",
+          "sha256": "e2d86e75e1959b1a11fcf094293454881a1db92b5fa45c2581d0402fda362920",
+          "sha1": "00a5fcf00b52bfc5ef4974d263be07a7979ef1b7",
+          "md5": "e2b6907dba5179d3a276981a86b82b15"
+        }
+      ]
+    }
+  ]
+}

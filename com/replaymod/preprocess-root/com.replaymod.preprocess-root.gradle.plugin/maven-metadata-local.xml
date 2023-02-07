@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.replaymod.preprocess-root</groupId>
+  <artifactId>com.replaymod.preprocess-root.gradle.plugin</artifactId>
+  <versioning>
+    <latest>SNAPSHOT</latest>
+    <versions>
+      <version>SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230207044100</lastUpdated>
+  </versioning>
+</metadata>
