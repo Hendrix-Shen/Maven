@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen.magic-project",
+    "module": "magiclib-1_18_2",
+    "version": "0.7.265.218+c7ba8f9-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-core",
+          "version": {
+            "requires": "0.7.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_18_2",
+          "version": {
+            "requires": "0.7.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-carpet-compat-1_18_2",
+          "version": {
+            "requires": "0.2.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-minecraft-compat-1_18_2",
+          "version": {
+            "requires": "0.5.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-malilib-extra-1_18_2",
+          "version": {
+            "requires": "0.7.3+c7ba8f9-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-1_18_2-0.7.265.218+c7ba8f9-beta.jar",
+          "url": "magiclib-1_18_2-0.7.265.218+c7ba8f9-beta.jar",
+          "size": 261,
+          "sha512": "e62ccb0c24f316173e21462d4f5d6082b23d242f19cc14f5bc26ba6b068c18f8ed27c78afa66cd456d47e77a55bede4db55dfffbe9a97482f3de9b84a3d716d5",
+          "sha256": "a4fea94b207a1a9823084c8c9948263a6bf806b4fcc37759a0a9824b2c323836",
+          "sha1": "8bbabbe61e0a8b7e16c0001fda50c2568c11735e",
+          "md5": "0b26e7ba44e89c5cf787612371301de0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-core",
+          "version": {
+            "requires": "0.7.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-base-1_18_2",
+          "version": {
+            "requires": "0.7.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-carpet-compat-1_18_2",
+          "version": {
+            "requires": "0.2.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-minecraft-compat-1_18_2",
+          "version": {
+            "requires": "0.5.3+c7ba8f9-beta"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magic-project",
+          "module": "magiclib-malilib-extra-1_18_2",
+          "version": {
+            "requires": "0.7.3+c7ba8f9-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "magiclib-1_18_2-0.7.265.218+c7ba8f9-beta.jar",
+          "url": "magiclib-1_18_2-0.7.265.218+c7ba8f9-beta.jar",
+          "size": 261,
+          "sha512": "e62ccb0c24f316173e21462d4f5d6082b23d242f19cc14f5bc26ba6b068c18f8ed27c78afa66cd456d47e77a55bede4db55dfffbe9a97482f3de9b84a3d716d5",
+          "sha256": "a4fea94b207a1a9823084c8c9948263a6bf806b4fcc37759a0a9824b2c323836",
+          "sha1": "8bbabbe61e0a8b7e16c0001fda50c2568c11735e",
+          "md5": "0b26e7ba44e89c5cf787612371301de0"
+        }
+      ]
+    }
+  ]
+}

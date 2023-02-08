@@ -27,11 +27,11 @@
         {
           "name": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
           "url": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
-          "size": 911552,
-          "sha512": "7457a0c56fc9f928adc5d152a84c3d3a473db7016769a7da7dc74f9268ef3887bc9f7c6d55aff50ccb0d840dc761eab1a3ad8500eb0bc756bb7c12e6100463b1",
-          "sha256": "119ea3a9f6a37e0de858db287d4c0d67cf50c4413ae5972cf1f0e7319d1bd863",
-          "sha1": "e4b6bbf6198db59c7fb29763350cfb7cc8db8ba4",
-          "md5": "e0928e71cc61161e2c9024a87b5ff650"
+          "size": 930009,
+          "sha512": "39655f04f59d26bcbb5f108ab0710c84071f24269e2efc7d172326d83052304517f76afe97784fad3909c49d6d20e1b33ddd030196f148af8bf356502cdc433c",
+          "sha256": "ac4f22091d40690a3ebe456acc144333812237d3e81b6237ea4c2528b65be3c3",
+          "sha1": "d5a6018297f3f35f0683dea0a19cfbb553c04ece",
+          "md5": "a1555c4d03f5341f8ee2a73affda9b53"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
           "url": "magiclib-carpet-compat-0.7.12+b31abea-beta.jar",
-          "size": 911552,
-          "sha512": "7457a0c56fc9f928adc5d152a84c3d3a473db7016769a7da7dc74f9268ef3887bc9f7c6d55aff50ccb0d840dc761eab1a3ad8500eb0bc756bb7c12e6100463b1",
-          "sha256": "119ea3a9f6a37e0de858db287d4c0d67cf50c4413ae5972cf1f0e7319d1bd863",
-          "sha1": "e4b6bbf6198db59c7fb29763350cfb7cc8db8ba4",
-          "md5": "e0928e71cc61161e2c9024a87b5ff650"
+          "size": 930009,
+          "sha512": "39655f04f59d26bcbb5f108ab0710c84071f24269e2efc7d172326d83052304517f76afe97784fad3909c49d6d20e1b33ddd030196f148af8bf356502cdc433c",
+          "sha256": "ac4f22091d40690a3ebe456acc144333812237d3e81b6237ea4c2528b65be3c3",
+          "sha1": "d5a6018297f3f35f0683dea0a19cfbb553c04ece",
+          "md5": "a1555c4d03f5341f8ee2a73affda9b53"
         }
       ]
     }

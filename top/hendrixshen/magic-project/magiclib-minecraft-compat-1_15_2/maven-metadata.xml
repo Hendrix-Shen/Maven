@@ -3,11 +3,11 @@
   <groupId>top.hendrixshen.magic-project</groupId>
   <artifactId>magiclib-minecraft-compat-1_15_2</artifactId>
   <versioning>
-    <latest>0.5.2+32bcf58-beta</latest>
-    <release>0.5.2+32bcf58-beta</release>
+    <latest>0.5.3+c7ba8f9-beta</latest>
+    <release>0.5.3+c7ba8f9-beta</release>
     <versions>
-      <version>0.5.2+32bcf58-beta</version>
+      <version>0.5.3+c7ba8f9-beta</version>
     </versions>
-    <lastUpdated>20230131095629</lastUpdated>
+    <lastUpdated>20230208050856</lastUpdated>
   </versioning>
 </metadata>
