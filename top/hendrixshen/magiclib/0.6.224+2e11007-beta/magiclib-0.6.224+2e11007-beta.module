@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.hendrixshen",
+    "module": "magiclib",
+    "version": "0.6.224+2e11007-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "magiclib-0.6.224+2e11007-beta.jar",
+          "url": "magiclib-0.6.224+2e11007-beta.jar",
+          "size": 2133926,
+          "sha512": "be4f7248bac2554fa85b0448bc21d86992b6f0af7deb0c8c8a64227bedae45e1924d8f9b23ae2c75f34bef47f86d8ef702f2c9ab6aa2ed30cb9d52faa7609669",
+          "sha256": "8d0506d9dfa67b1f0b89b93bf32efd9e6ccdadbea555e593a3005c9d75b09608",
+          "sha1": "89dd29b3a2cdd89b15939b338628a795f8f0347c",
+          "md5": "03d4873c2704e6fd3821d2019d61e3fc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "magiclib-0.6.224+2e11007-beta.jar",
+          "url": "magiclib-0.6.224+2e11007-beta.jar",
+          "size": 2133926,
+          "sha512": "be4f7248bac2554fa85b0448bc21d86992b6f0af7deb0c8c8a64227bedae45e1924d8f9b23ae2c75f34bef47f86d8ef702f2c9ab6aa2ed30cb9d52faa7609669",
+          "sha256": "8d0506d9dfa67b1f0b89b93bf32efd9e6ccdadbea555e593a3005c9d75b09608",
+          "sha1": "89dd29b3a2cdd89b15939b338628a795f8f0347c",
+          "md5": "03d4873c2704e6fd3821d2019d61e3fc"
+        }
+      ]
+    }
+  ]
+}
