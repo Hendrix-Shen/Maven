@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "litematica",
+    "version": "0.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "litematica-0.14.0.jar",
+          "url": "litematica-0.14.0.jar",
+          "size": 922647,
+          "sha512": "a1552549ca867461d9d061db17d4f8884ebcfc666e584fb2234b6be519c86e62a8420d2b251344590e73edd87a3e1cafcda94f513c914b29d9ed4fcaec5f7a1c",
+          "sha256": "79aa3b26683fad56b7b440f91a0ab1a8079583d992256a7906799c34b15c425f",
+          "sha1": "ad92cb0bd49cf0c88f21c73a5f21add3857b2e06",
+          "md5": "181ef33eb604aeec667a536777c16ae3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.14"
+          }
+        },
+        {
+          "group": "fi.dy.masa",
+          "module": "malilib",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "litematica-0.14.0.jar",
+          "url": "litematica-0.14.0.jar",
+          "size": 922647,
+          "sha512": "a1552549ca867461d9d061db17d4f8884ebcfc666e584fb2234b6be519c86e62a8420d2b251344590e73edd87a3e1cafcda94f513c914b29d9ed4fcaec5f7a1c",
+          "sha256": "79aa3b26683fad56b7b440f91a0ab1a8079583d992256a7906799c34b15c425f",
+          "sha1": "ad92cb0bd49cf0c88f21c73a5f21add3857b2e06",
+          "md5": "181ef33eb604aeec667a536777c16ae3"
+        }
+      ]
+    }
+  ]
+}
