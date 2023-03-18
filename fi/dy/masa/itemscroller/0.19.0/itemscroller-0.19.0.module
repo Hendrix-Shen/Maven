@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "itemscroller",
+    "version": "0.19.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "itemscroller-0.19.0.jar",
+          "url": "itemscroller-0.19.0.jar",
+          "size": 121461,
+          "sha512": "633466148ba82f92588e22e651cf23054b86c48f42e1309738591078ed614f9fc7caafc0521bdb9d19b5a52697673a25c000df600b815506b6fb09f35bdc16cc",
+          "sha256": "6154da6f9756710826da599862c2e76e5f9f1d16330c7b7ab105481bd114ec1e",
+          "sha1": "f622099d8d81e69aa6d5c90f372f5f3a81caeedc",
+          "md5": "4efdb80b5dd5b5f8907e583e2d8336df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.14"
+          }
+        },
+        {
+          "group": "fi.dy.masa",
+          "module": "malilib",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "itemscroller-0.19.0.jar",
+          "url": "itemscroller-0.19.0.jar",
+          "size": 121461,
+          "sha512": "633466148ba82f92588e22e651cf23054b86c48f42e1309738591078ed614f9fc7caafc0521bdb9d19b5a52697673a25c000df600b815506b6fb09f35bdc16cc",
+          "sha256": "6154da6f9756710826da599862c2e76e5f9f1d16330c7b7ab105481bd114ec1e",
+          "sha1": "f622099d8d81e69aa6d5c90f372f5f3a81caeedc",
+          "md5": "4efdb80b5dd5b5f8907e583e2d8336df"
+        }
+      ]
+    }
+  ]
+}
