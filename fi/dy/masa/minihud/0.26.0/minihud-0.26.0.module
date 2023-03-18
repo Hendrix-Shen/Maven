@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "minihud",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minihud-0.26.0.jar",
+          "url": "minihud-0.26.0.jar",
+          "size": 336583,
+          "sha512": "ac5f64836da0d04bd36075c4226a2bbfeaa58ab72183f9ee3fdbf6fd822c800363500fb444b05b70295f36e86bf8a303af414ec120493b0a96072146189712af",
+          "sha256": "7a2d1889955b03713586c8411c5997e558e65b132db2b1ed6039fa13a30c7a16",
+          "sha1": "76af62b4a8da3e4490fb72292dcf39bcfa606c80",
+          "md5": "6cd47e3fd50b1eede6091b705b1ab031"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.14"
+          }
+        },
+        {
+          "group": "fi.dy.masa",
+          "module": "malilib",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minihud-0.26.0.jar",
+          "url": "minihud-0.26.0.jar",
+          "size": 336583,
+          "sha512": "ac5f64836da0d04bd36075c4226a2bbfeaa58ab72183f9ee3fdbf6fd822c800363500fb444b05b70295f36e86bf8a303af414ec120493b0a96072146189712af",
+          "sha256": "7a2d1889955b03713586c8411c5997e558e65b132db2b1ed6039fa13a30c7a16",
+          "sha1": "76af62b4a8da3e4490fb72292dcf39bcfa606c80",
+          "md5": "6cd47e3fd50b1eede6091b705b1ab031"
+        }
+      ]
+    }
+  ]
+}
