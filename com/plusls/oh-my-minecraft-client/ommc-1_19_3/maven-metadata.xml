@@ -3,11 +3,11 @@
   <groupId>com.plusls.oh-my-minecraft-client</groupId>
   <artifactId>ommc-1_19_3</artifactId>
   <versioning>
-    <latest>0.5.260+86e6882-dev</latest>
-    <release>0.5.260+86e6882-dev</release>
+    <latest>0.5.263+0749a47-dev</latest>
+    <release>0.5.263+0749a47-dev</release>
     <versions>
-      <version>0.5.260+86e6882-dev</version>
+      <version>0.5.263+0749a47-dev</version>
     </versions>
-    <lastUpdated>20230320134446</lastUpdated>
+    <lastUpdated>20230320144223</lastUpdated>
   </versioning>
 </metadata>
