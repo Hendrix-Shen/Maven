@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.plusls.oh-my-minecraft-client</groupId>
+  <artifactId>ommc-1_18_2</artifactId>
+  <versioning>
+    <latest>0.5.258+a2512cb-dev</latest>
+    <release>0.5.258+a2512cb-dev</release>
+    <versions>
+      <version>0.5.258+a2512cb-dev</version>
+    </versions>
+    <lastUpdated>20230320045831</lastUpdated>
+  </versioning>
+</metadata>
