@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "minihud",
+    "version": "23w12a-0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minihud-23w12a-0.27.0.jar",
+          "url": "minihud-23w12a-0.27.0.jar",
+          "size": 336444,
+          "sha512": "9cf57e8cc3bd897a0c839941fc5a79d173f583a0f0e7498449ee789b8fce4ded4a4634573e55645e897e4c3f31171dd71e6ccdfbdc1d314dbb83bb0db34d0f44",
+          "sha256": "954eb83af7a1d09ea7f4ae3fc96b39b2af222080228fd0b4161eea7a231f5ad9",
+          "sha1": "6565f7bd48210d1a66e1bfab208899d358061816",
+          "md5": "4e01eafe5f0199e27360bc376fa552ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.18"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-23w12a",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minihud-23w12a-0.27.0.jar",
+          "url": "minihud-23w12a-0.27.0.jar",
+          "size": 336444,
+          "sha512": "9cf57e8cc3bd897a0c839941fc5a79d173f583a0f0e7498449ee789b8fce4ded4a4634573e55645e897e4c3f31171dd71e6ccdfbdc1d314dbb83bb0db34d0f44",
+          "sha256": "954eb83af7a1d09ea7f4ae3fc96b39b2af222080228fd0b4161eea7a231f5ad9",
+          "sha1": "6565f7bd48210d1a66e1bfab208899d358061816",
+          "md5": "4e01eafe5f0199e27360bc376fa552ea"
+        }
+      ]
+    }
+  ]
+}
