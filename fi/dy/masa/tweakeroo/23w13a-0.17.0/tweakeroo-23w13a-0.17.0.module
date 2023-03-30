@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "tweakeroo",
+    "version": "23w13a-0.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tweakeroo-23w13a-0.17.0.jar",
+          "url": "tweakeroo-23w13a-0.17.0.jar",
+          "size": 279872,
+          "sha512": "2a575f4c9d4bd7073b1b7697aa8b9139a2acf6f682c391833711e7deaf6f967c3aeebce8f9917ccc8511ab77fa3b5ca3a43eb26f535612573657099b7b4ed747",
+          "sha256": "4421468a60925a15a2fef84b340232779484dbeb61db6b678593f902f7b9eefa",
+          "sha1": "55524b7e9afa1b8d8b32fcde2428fa212a33bf05",
+          "md5": "53f1735be3f99546ea83abeaa36dc7e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.18"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-23w13a",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweakeroo-23w13a-0.17.0.jar",
+          "url": "tweakeroo-23w13a-0.17.0.jar",
+          "size": 279872,
+          "sha512": "2a575f4c9d4bd7073b1b7697aa8b9139a2acf6f682c391833711e7deaf6f967c3aeebce8f9917ccc8511ab77fa3b5ca3a43eb26f535612573657099b7b4ed747",
+          "sha256": "4421468a60925a15a2fef84b340232779484dbeb61db6b678593f902f7b9eefa",
+          "sha1": "55524b7e9afa1b8d8b32fcde2428fa212a33bf05",
+          "md5": "53f1735be3f99546ea83abeaa36dc7e3"
+        }
+      ]
+    }
+  ]
+}
