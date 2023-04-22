@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "itemscroller",
+    "version": "23w16a-0.20.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "itemscroller-23w16a-0.20.0.jar",
+          "url": "itemscroller-23w16a-0.20.0.jar",
+          "size": 121227,
+          "sha512": "75fde937cab599375c37d1e1f1522774e3ec2cd4edcbc3b1ac1df7c2520aabfd69e9fce9a4698804666c3aed1dcae804ace975e79fd995670678da25bd058ffb",
+          "sha256": "462a1c05beff92f55897a0cfa5ce873102040a84d9ca10efea97ed7e4a5106cd",
+          "sha1": "be694560d9575924e5c6e72d8537d4bb658bea68",
+          "md5": "f0a3f5b314b568d4d60f996e760dec93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-23w16a",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "itemscroller-23w16a-0.20.0.jar",
+          "url": "itemscroller-23w16a-0.20.0.jar",
+          "size": 121227,
+          "sha512": "75fde937cab599375c37d1e1f1522774e3ec2cd4edcbc3b1ac1df7c2520aabfd69e9fce9a4698804666c3aed1dcae804ace975e79fd995670678da25bd058ffb",
+          "sha256": "462a1c05beff92f55897a0cfa5ce873102040a84d9ca10efea97ed7e4a5106cd",
+          "sha1": "be694560d9575924e5c6e72d8537d4bb658bea68",
+          "md5": "f0a3f5b314b568d4d60f996e760dec93"
+        }
+      ]
+    }
+  ]
+}
