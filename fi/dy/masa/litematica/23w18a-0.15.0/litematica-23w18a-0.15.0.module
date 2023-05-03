@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "litematica",
+    "version": "23w18a-0.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "litematica-23w18a-0.15.0.jar",
+          "url": "litematica-23w18a-0.15.0.jar",
+          "size": 925794,
+          "sha512": "dc248aecf6c093323f405b1e5c25b9198f6e8e594355cdc1ea88e4fa62b49fe603aba83601c9c965c5ef564a4905e6404791f36be9a15f02cc1f81eba4fb7cdd",
+          "sha256": "c6082f574058febfdd786b2c2c9f83e661c3cbe6ee9d37974351155931927d59",
+          "sha1": "d33cd3d422fbb88b005be176a9dd3afddd71e229",
+          "md5": "509f6144b6d47ff528cd4fe9bb798e95"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-23w18a",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "litematica-23w18a-0.15.0.jar",
+          "url": "litematica-23w18a-0.15.0.jar",
+          "size": 925794,
+          "sha512": "dc248aecf6c093323f405b1e5c25b9198f6e8e594355cdc1ea88e4fa62b49fe603aba83601c9c965c5ef564a4905e6404791f36be9a15f02cc1f81eba4fb7cdd",
+          "sha256": "c6082f574058febfdd786b2c2c9f83e661c3cbe6ee9d37974351155931927d59",
+          "sha1": "d33cd3d422fbb88b005be176a9dd3afddd71e229",
+          "md5": "509f6144b6d47ff528cd4fe9bb798e95"
+        }
+      ]
+    }
+  ]
+}
