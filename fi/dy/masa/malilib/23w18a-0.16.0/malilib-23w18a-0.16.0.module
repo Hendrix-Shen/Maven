@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "malilib",
+    "version": "23w18a-0.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "malilib-23w18a-0.16.0.jar",
+          "url": "malilib-23w18a-0.16.0.jar",
+          "size": 540736,
+          "sha512": "d9c8af3d692f7e007ca87e69859c906e6104fa0fbdc347d5ac88bd06460953db7381558e4c35e0ee84a631f3a0ab8bf112e04f306272a4a50680b329483c0422",
+          "sha256": "cc0b56c4a80746f1ad53d1d21e9032990b5021c069c646b954028760a77398e1",
+          "sha1": "0012fb812c601b62e0b8b0a133163a3cbe21201a",
+          "md5": "dc4ccd5e1698c59ac2d7e0cef152903e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-resource-loader-v0",
+          "version": {
+            "requires": "0.11.5+bd913b0d6b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "malilib-23w18a-0.16.0.jar",
+          "url": "malilib-23w18a-0.16.0.jar",
+          "size": 540736,
+          "sha512": "d9c8af3d692f7e007ca87e69859c906e6104fa0fbdc347d5ac88bd06460953db7381558e4c35e0ee84a631f3a0ab8bf112e04f306272a4a50680b329483c0422",
+          "sha256": "cc0b56c4a80746f1ad53d1d21e9032990b5021c069c646b954028760a77398e1",
+          "sha1": "0012fb812c601b62e0b8b0a133163a3cbe21201a",
+          "md5": "dc4ccd5e1698c59ac2d7e0cef152903e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "malilib-23w18a-0.16.0-sources.jar",
+          "url": "malilib-23w18a-0.16.0-sources.jar",
+          "size": 266720,
+          "sha512": "f516a5357139423842eed3b11af29e7674626f8e1ad30ca8ce4c129881bed9398e8857915cc0971b7de071258c5a79a307506f87fb9df370132736611fb101d0",
+          "sha256": "923a3ff51a7f4ceb137b1a54bdaa37ea8a01f3d36ff5d6f5fefd9adca6f8bdfa",
+          "sha1": "e10212b15d97ad98dee5720984b1af2f31247d1b",
+          "md5": "f82a9f107c797eeb73a79613870b5ca2"
+        }
+      ]
+    }
+  ]
+}
