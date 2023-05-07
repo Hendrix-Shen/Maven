@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "carpet",
+    "module": "fabric-carpet",
+    "version": "1.19.3-1.4.96+v230201",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-carpet-1.19.3-1.4.96+v230201.jar",
+          "url": "fabric-carpet-1.19.3-1.4.96+v230201.jar",
+          "size": 1571788,
+          "sha512": "e6681af77f83293ace1aaff7cd29079c132f7926ebac8a3032c830a0dad04b61da1bbb5bd8d418c3e2124c01589ef5d44f52397e4b9582fb04e583385bb40900",
+          "sha256": "cf5a0dd25711390cc9f3c213aa3b4ee5111a1bd997750a5a5a3428ef885609ed",
+          "sha1": "59dfe1541af63d5449c879b65068f3cf47f92919",
+          "md5": "ab6ed22f2683c1cc674ae3e636f90798"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-carpet-1.19.3-1.4.96+v230201.jar",
+          "url": "fabric-carpet-1.19.3-1.4.96+v230201.jar",
+          "size": 1571788,
+          "sha512": "e6681af77f83293ace1aaff7cd29079c132f7926ebac8a3032c830a0dad04b61da1bbb5bd8d418c3e2124c01589ef5d44f52397e4b9582fb04e583385bb40900",
+          "sha256": "cf5a0dd25711390cc9f3c213aa3b4ee5111a1bd997750a5a5a3428ef885609ed",
+          "sha1": "59dfe1541af63d5449c879b65068f3cf47f92919",
+          "md5": "ab6ed22f2683c1cc674ae3e636f90798"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-carpet-1.19.3-1.4.96+v230201-sources.jar",
+          "url": "fabric-carpet-1.19.3-1.4.96+v230201-sources.jar",
+          "size": 690063,
+          "sha512": "4c60320941618f426bfcef68b72c9809d6b11ee86e0b6865caf56cf3a45bcbaca97842724fb0fb09c37c27d6d3aa2e1587680b15e6dc886a4691db417752c53a",
+          "sha256": "e46d9b2d8b762b0191e866f5a0f429a1e645fa0528ec47d228afb9fdc9d14291",
+          "sha1": "8a5c932cac41e1b4a1f305107bc2bd99de7fb689",
+          "md5": "400f5563f120fcbfbdcc409d4baa2f0b"
+        }
+      ]
+    }
+  ]
+}
