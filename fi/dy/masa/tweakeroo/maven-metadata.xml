@@ -3,12 +3,18 @@
   <groupId>fi.dy.masa</groupId>
   <artifactId>tweakeroo</artifactId>
   <versioning>
-    <latest>23w18a-0.17.0</latest>
-    <release>23w18a-0.17.0</release>
+    <latest>1.20-pre1-0.17.0</latest>
+    <release>1.20-pre1-0.17.0</release>
     <versions>
+      <version>23w12a-0.17.0</version>
+      <version>23w13a-0.17.0</version>
+      <version>23w13a_or_b-0.17.0</version>
+      <version>23w14a-0.17.0</version>
+      <version>23w16a-0.17.0</version>
       <version>23w17a-0.17.0</version>
       <version>23w18a-0.17.0</version>
+      <version>1.20-pre1-0.17.0</version>
     </versions>
-    <lastUpdated>20230503145020</lastUpdated>
+    <lastUpdated>20230511045002</lastUpdated>
   </versioning>
 </metadata>
