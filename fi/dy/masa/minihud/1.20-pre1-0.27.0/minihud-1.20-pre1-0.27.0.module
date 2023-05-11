@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "minihud",
+    "version": "1.20-pre1-0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minihud-1.20-pre1-0.27.0.jar",
+          "url": "minihud-1.20-pre1-0.27.0.jar",
+          "size": 336589,
+          "sha512": "3c65c583fc099299a17ca74c71af694dff9d425ea4765d13ce2cf37dfd70b8ad4af4e1cb4d9ca34d58c1ab8f1eeb923370ab8ba7f4e9bfe1a042265bb4534b23",
+          "sha256": "c75baec61b506591f2b3be1e7f8274dd72ac197c1b288fad96a43295487b27e1",
+          "sha1": "5e5da869a6ea2f0f59cc061f153a0db4fa3121cc",
+          "md5": "d1914098a65cb2c2906d96829fafb449"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20-pre1",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minihud-1.20-pre1-0.27.0.jar",
+          "url": "minihud-1.20-pre1-0.27.0.jar",
+          "size": 336589,
+          "sha512": "3c65c583fc099299a17ca74c71af694dff9d425ea4765d13ce2cf37dfd70b8ad4af4e1cb4d9ca34d58c1ab8f1eeb923370ab8ba7f4e9bfe1a042265bb4534b23",
+          "sha256": "c75baec61b506591f2b3be1e7f8274dd72ac197c1b288fad96a43295487b27e1",
+          "sha1": "5e5da869a6ea2f0f59cc061f153a0db4fa3121cc",
+          "md5": "d1914098a65cb2c2906d96829fafb449"
+        }
+      ]
+    }
+  ]
+}
