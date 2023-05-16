@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "itemscroller",
+    "version": "1.20-pre2-0.20.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "itemscroller-1.20-pre2-0.20.0.jar",
+          "url": "itemscroller-1.20-pre2-0.20.0.jar",
+          "size": 121230,
+          "sha512": "00694a2124e42cda461bc6e8036fc62cf71303306e75ae9b1369394ab31dc049cd441a7276ce4f25bffc7a287b182fc96493ab0e319aa20161fe2506dbf050b4",
+          "sha256": "6f48a7776b20dba1b7448507b935479f530685e4e73f316cdffed77ca3a40ca2",
+          "sha1": "91f6d5f90fdc7253ff839cf7325f9cf6e5933086",
+          "md5": "fac51c7fac88aa843a092fe437c8c739"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20-pre2",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "itemscroller-1.20-pre2-0.20.0.jar",
+          "url": "itemscroller-1.20-pre2-0.20.0.jar",
+          "size": 121230,
+          "sha512": "00694a2124e42cda461bc6e8036fc62cf71303306e75ae9b1369394ab31dc049cd441a7276ce4f25bffc7a287b182fc96493ab0e319aa20161fe2506dbf050b4",
+          "sha256": "6f48a7776b20dba1b7448507b935479f530685e4e73f316cdffed77ca3a40ca2",
+          "sha1": "91f6d5f90fdc7253ff839cf7325f9cf6e5933086",
+          "md5": "fac51c7fac88aa843a092fe437c8c739"
+        }
+      ]
+    }
+  ]
+}
