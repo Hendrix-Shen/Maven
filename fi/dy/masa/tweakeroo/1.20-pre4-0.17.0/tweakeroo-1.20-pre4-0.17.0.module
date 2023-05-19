@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "tweakeroo",
+    "version": "1.20-pre4-0.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tweakeroo-1.20-pre4-0.17.0.jar",
+          "url": "tweakeroo-1.20-pre4-0.17.0.jar",
+          "size": 279921,
+          "sha512": "f8cf75235689b68e31c81fdbbaab0ebdb2439a3329ca5d72d08b17b9704dc11ed26ce9cddf5a65ed380822a4675092a33da5cfa3b9d07daf674996cbd33cf65d",
+          "sha256": "cf3cf6ecd525d361953492f5162ed1ed8d62b4079cce1ccca8aaf7cec7fc167e",
+          "sha1": "fa690767961a47d099f5d01798d5a465db058d9f",
+          "md5": "4f7c73af0acb44e07e7d57f03da17d51"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20-pre4",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweakeroo-1.20-pre4-0.17.0.jar",
+          "url": "tweakeroo-1.20-pre4-0.17.0.jar",
+          "size": 279921,
+          "sha512": "f8cf75235689b68e31c81fdbbaab0ebdb2439a3329ca5d72d08b17b9704dc11ed26ce9cddf5a65ed380822a4675092a33da5cfa3b9d07daf674996cbd33cf65d",
+          "sha256": "cf3cf6ecd525d361953492f5162ed1ed8d62b4079cce1ccca8aaf7cec7fc167e",
+          "sha1": "fa690767961a47d099f5d01798d5a465db058d9f",
+          "md5": "4f7c73af0acb44e07e7d57f03da17d51"
+        }
+      ]
+    }
+  ]
+}
