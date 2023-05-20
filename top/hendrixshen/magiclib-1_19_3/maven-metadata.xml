@@ -3,11 +3,11 @@
   <groupId>top.hendrixshen</groupId>
   <artifactId>magiclib-1_19_3</artifactId>
   <versioning>
-    <latest>0.7.324+7be771b-beta</latest>
-    <release>0.7.324+7be771b-beta</release>
+    <latest>0.7.326+2b20e19-beta</latest>
+    <release>0.7.326+2b20e19-beta</release>
     <versions>
-      <version>0.7.324+7be771b-beta</version>
+      <version>0.7.326+2b20e19-beta</version>
     </versions>
-    <lastUpdated>20230517001601</lastUpdated>
+    <lastUpdated>20230520140339</lastUpdated>
   </versioning>
 </metadata>
