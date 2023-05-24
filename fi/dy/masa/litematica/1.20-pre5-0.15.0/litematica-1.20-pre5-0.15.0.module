@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa",
+    "module": "litematica",
+    "version": "1.20-pre5-0.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "litematica-1.20-pre5-0.15.0.jar",
+          "url": "litematica-1.20-pre5-0.15.0.jar",
+          "size": 926094,
+          "sha512": "fd7218c37768b756f59243715a9712137c446858d122188d359ef2a4895973ce26cec035e5a380afa05ad34a580c6c207fe912d9fb26a5fd99e80f14760b8a0b",
+          "sha256": "e1ba780b16548e362d2010504bee4579b183818bb516ca2242e44ecdcaf54971",
+          "sha1": "f6a2c8dfc27f1ae4fb8e3cad9e9b28932c91fd93",
+          "md5": "9eb2214ab9f0b7383fa0b7b8adfefc7b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.19"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20-pre5",
+          "version": {
+            "requires": "0.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "litematica-1.20-pre5-0.15.0.jar",
+          "url": "litematica-1.20-pre5-0.15.0.jar",
+          "size": 926094,
+          "sha512": "fd7218c37768b756f59243715a9712137c446858d122188d359ef2a4895973ce26cec035e5a380afa05ad34a580c6c207fe912d9fb26a5fd99e80f14760b8a0b",
+          "sha256": "e1ba780b16548e362d2010504bee4579b183818bb516ca2242e44ecdcaf54971",
+          "sha1": "f6a2c8dfc27f1ae4fb8e3cad9e9b28932c91fd93",
+          "md5": "9eb2214ab9f0b7383fa0b7b8adfefc7b"
+        }
+      ]
+    }
+  ]
+}
