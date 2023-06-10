@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa.itemscroller",
+    "module": "itemscroller-fabric-1.20.0",
+    "version": "0.19.2-nyan.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "itemscroller-fabric-1.20.0-0.19.2-nyan.1.jar",
+          "url": "itemscroller-fabric-1.20.0-0.19.2-nyan.1.jar",
+          "size": 121233,
+          "sha512": "d5011193e2ed404b1f2d1c77251c04bd0a599f34a1b0f60dac3cfbff96ffb413c9a93c938ff7fa2748515f4a76d8c0a54bb98879e710cb4d6a9804d42f6d8995",
+          "sha256": "a2155bad9f600bca6b2041d5bda60a62d8805ef4924c3aaeddf0b9de857e796e",
+          "sha1": "fb1b1d8b07341d59c33280b97aef832e330216e9",
+          "md5": "e0419205972341f3e8bbeda63929963c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20.0",
+          "version": {
+            "requires": "0.15.4-nyan.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "itemscroller-fabric-1.20.0-0.19.2-nyan.1.jar",
+          "url": "itemscroller-fabric-1.20.0-0.19.2-nyan.1.jar",
+          "size": 121233,
+          "sha512": "d5011193e2ed404b1f2d1c77251c04bd0a599f34a1b0f60dac3cfbff96ffb413c9a93c938ff7fa2748515f4a76d8c0a54bb98879e710cb4d6a9804d42f6d8995",
+          "sha256": "a2155bad9f600bca6b2041d5bda60a62d8805ef4924c3aaeddf0b9de857e796e",
+          "sha1": "fb1b1d8b07341d59c33280b97aef832e330216e9",
+          "md5": "e0419205972341f3e8bbeda63929963c"
+        }
+      ]
+    }
+  ]
+}

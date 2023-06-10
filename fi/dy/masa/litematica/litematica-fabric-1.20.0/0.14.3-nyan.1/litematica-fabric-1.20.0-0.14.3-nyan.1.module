@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa.litematica",
+    "module": "litematica-fabric-1.20.0",
+    "version": "0.14.3-nyan.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "litematica-fabric-1.20.0-0.14.3-nyan.1.jar",
+          "url": "litematica-fabric-1.20.0-0.14.3-nyan.1.jar",
+          "size": 926076,
+          "sha512": "59e23f2ffdc54a70f9e42b6c2642d129c2106ffc560695d5c4afbef7fa38537b7748c72856091f5c6cfa09ec88ff9e438a072020548a7d50c8bdb31e33c70045",
+          "sha256": "67a50afda37d39c59dd6a41f63df677a4202e945be9f1e18cbe44bc9d594c092",
+          "sha1": "186cef68d2469095380393bb6b2977f5b7ac4b18",
+          "md5": "bb16f73f30effd9faf6af528fd3ee476"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20.0",
+          "version": {
+            "requires": "0.15.4-nyan.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "litematica-fabric-1.20.0-0.14.3-nyan.1.jar",
+          "url": "litematica-fabric-1.20.0-0.14.3-nyan.1.jar",
+          "size": 926076,
+          "sha512": "59e23f2ffdc54a70f9e42b6c2642d129c2106ffc560695d5c4afbef7fa38537b7748c72856091f5c6cfa09ec88ff9e438a072020548a7d50c8bdb31e33c70045",
+          "sha256": "67a50afda37d39c59dd6a41f63df677a4202e945be9f1e18cbe44bc9d594c092",
+          "sha1": "186cef68d2469095380393bb6b2977f5b7ac4b18",
+          "md5": "bb16f73f30effd9faf6af528fd3ee476"
+        }
+      ]
+    }
+  ]
+}

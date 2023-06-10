@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa.minihud",
+    "module": "minihud-fabric-1.20.0",
+    "version": "0.26.2-nyan.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minihud-fabric-1.20.0-0.26.2-nyan.1.jar",
+          "url": "minihud-fabric-1.20.0-0.26.2-nyan.1.jar",
+          "size": 336582,
+          "sha512": "b200cf6c6af03804ff20b269808f3e40db6fb4f7a6f435f64de9616cbb376e05bf99b8cba5229c0ba0edbcace9645327989783ecf210ae901d771cd581699204",
+          "sha256": "af368560563faea0f3e3a9cf55f724b222f2cc45352476919877c73760b45138",
+          "sha1": "0ee672a8356828ce3ee88dd9d9beaededff2c464",
+          "md5": "a266f53b206c566a508297fc805f4e74"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20.0",
+          "version": {
+            "requires": "0.15.4-nyan.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minihud-fabric-1.20.0-0.26.2-nyan.1.jar",
+          "url": "minihud-fabric-1.20.0-0.26.2-nyan.1.jar",
+          "size": 336582,
+          "sha512": "b200cf6c6af03804ff20b269808f3e40db6fb4f7a6f435f64de9616cbb376e05bf99b8cba5229c0ba0edbcace9645327989783ecf210ae901d771cd581699204",
+          "sha256": "af368560563faea0f3e3a9cf55f724b222f2cc45352476919877c73760b45138",
+          "sha1": "0ee672a8356828ce3ee88dd9d9beaededff2c464",
+          "md5": "a266f53b206c566a508297fc805f4e74"
+        }
+      ]
+    }
+  ]
+}

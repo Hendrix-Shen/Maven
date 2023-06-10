@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa.tweakeroo",
+    "module": "tweakeroo-fabric-1.20.0",
+    "version": "0.16.0-nyan.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tweakeroo-fabric-1.20.0-0.16.0-nyan.1.jar",
+          "url": "tweakeroo-fabric-1.20.0-0.16.0-nyan.1.jar",
+          "size": 279913,
+          "sha512": "fbee31cfd953e16db29a6102340c712ba4d9d3b0bc84c01ee558abd3f3d19ab1a6b71245ae91ea4bfb15a93f047f682e357b9c0b5613e9526f95205e14422dd6",
+          "sha256": "19959e39331327d958c1538b91fcfc43270e56672567c3d6ef5999fabeed402b",
+          "sha1": "ef95a2278e95b66616b306f4cb96bb80815593a5",
+          "md5": "4d833b2d88b57145f4f960c330b8178c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "fi.dy.masa.malilib",
+          "module": "malilib-fabric-1.20.0",
+          "version": {
+            "requires": "0.15.4-nyan.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tweakeroo-fabric-1.20.0-0.16.0-nyan.1.jar",
+          "url": "tweakeroo-fabric-1.20.0-0.16.0-nyan.1.jar",
+          "size": 279913,
+          "sha512": "fbee31cfd953e16db29a6102340c712ba4d9d3b0bc84c01ee558abd3f3d19ab1a6b71245ae91ea4bfb15a93f047f682e357b9c0b5613e9526f95205e14422dd6",
+          "sha256": "19959e39331327d958c1538b91fcfc43270e56672567c3d6ef5999fabeed402b",
+          "sha1": "ef95a2278e95b66616b306f4cb96bb80815593a5",
+          "md5": "4d833b2d88b57145f4f960c330b8178c"
+        }
+      ]
+    }
+  ]
+}
