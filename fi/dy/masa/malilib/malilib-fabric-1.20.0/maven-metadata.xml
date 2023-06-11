@@ -3,11 +3,11 @@
   <groupId>fi.dy.masa.malilib</groupId>
   <artifactId>malilib-fabric-1.20.0</artifactId>
   <versioning>
-    <latest>0.15.4-nyan.1</latest>
-    <release>0.15.4-nyan.1</release>
+    <latest>0.15.4-nyan.2</latest>
+    <release>0.15.4-nyan.2</release>
     <versions>
-      <version>0.15.4-nyan.1</version>
+      <version>0.15.4-nyan.2</version>
     </versions>
-    <lastUpdated>20230610052345</lastUpdated>
+    <lastUpdated>20230611054820</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa.malilib",
+    "module": "malilib-fabric-1.20.0",
+    "version": "0.15.4-nyan.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "malilib-fabric-1.20.0-0.15.4-nyan.2.jar",
+          "url": "malilib-fabric-1.20.0-0.15.4-nyan.2.jar",
+          "size": 558476,
+          "sha512": "de28d31de65a5c4ba764ad1f1d083d42d9a44d9a769a72d59c319aab12c6eb68394f8286827111009d3d8b2e7044feef8dce36bdc7a297a45066da5e6973e266",
+          "sha256": "4f3c1a77b42a3efd81ac13c76421bc15b19ecace0548ced980901c215159fc48",
+          "sha1": "95bc0fd6002b98ddddbd21f363c5df4b039478ab",
+          "md5": "e2c7d19e2fa8d07fdd2105d70bc8c198"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-resource-loader-v0",
+          "version": {
+            "requires": "0.11.7+f7923f6d27"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "malilib-fabric-1.20.0-0.15.4-nyan.2.jar",
+          "url": "malilib-fabric-1.20.0-0.15.4-nyan.2.jar",
+          "size": 558476,
+          "sha512": "de28d31de65a5c4ba764ad1f1d083d42d9a44d9a769a72d59c319aab12c6eb68394f8286827111009d3d8b2e7044feef8dce36bdc7a297a45066da5e6973e266",
+          "sha256": "4f3c1a77b42a3efd81ac13c76421bc15b19ecace0548ced980901c215159fc48",
+          "sha1": "95bc0fd6002b98ddddbd21f363c5df4b039478ab",
+          "md5": "e2c7d19e2fa8d07fdd2105d70bc8c198"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "malilib-fabric-1.20.0-0.15.4-nyan.2-sources.jar",
+          "url": "malilib-fabric-1.20.0-0.15.4-nyan.2-sources.jar",
+          "size": 274474,
+          "sha512": "e767166e7f54c414aa8f6ea2de3c615436ba8068b30683c52ac830d50107d4df27a2c36f120c831eab8d9491c15501c292db9cd3d35462866b2f48dfc74d0b9c",
+          "sha256": "6ab3c598ca218af0b4238cda601f1e4a0f1993d6d5a11d26be687f846b1196da",
+          "sha1": "b0df7ea0321e17975c1248dd041f2726cdd2d745",
+          "md5": "1e97261d75b3aaa0f40f5dc22861e536"
+        }
+      ]
+    }
+  ]
+}
