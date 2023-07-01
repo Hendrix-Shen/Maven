@@ -11,9 +11,9 @@
   <version>SNAPSHOT</version>
   <dependencies>
     <dependency>
-      <groupId>com.github.ReplayMod</groupId>
+      <groupId>com.github.Fallen-Breath</groupId>
       <artifactId>remap</artifactId>
-      <version>97d6082</version>
+      <version>6d1565046f</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

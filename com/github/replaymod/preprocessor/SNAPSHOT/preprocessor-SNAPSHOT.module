@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.6"
+      "version": "7.4.2"
     }
   },
   "variants": [
@@ -19,21 +19,21 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
         "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "files": [
         {
           "name": "preprocessor-SNAPSHOT.jar",
           "url": "preprocessor-SNAPSHOT.jar",
-          "size": 139561,
-          "sha512": "726ca0ff1183a702b2700b4054ca36035a92b2a3c778bce76a863364f2a54ec1f63e7af5371f0ba87bc42da80784f2e40f92382019df780e7c9e0840a2f6d21b",
-          "sha256": "b5841ac889d743a43aa69d5f63b3f2b4127ca6a7aca6acc53ea33ba8060424c5",
-          "sha1": "275bbce8f28cfd737909f30e65b64982d2de9690",
-          "md5": "b98e1d27014bdadd6d794564f45dde90"
+          "size": 144313,
+          "sha512": "a0f7456a10c1087d2fbfaeaf38200fd6686371cd3a75fca1b807d1cb8124fbfc2331d174f364f0924426f7358d38337d9cf60c87e47e2560d0e80f0d6f12f587",
+          "sha256": "ea51c1df154b46d1210118c5de9eb7bdc1633730331bfe42693e53c1050fafcc",
+          "sha1": "f24e7d3b3b362fa528df2b54ea3c519755d9ced9",
+          "md5": "4112e1661bd364cf68969f468a723b84"
         }
       ]
     },
@@ -42,18 +42,18 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
         "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "dependencies": [
         {
-          "group": "com.github.ReplayMod",
+          "group": "com.github.Fallen-Breath",
           "module": "remap",
           "version": {
-            "requires": "97d6082"
+            "requires": "6d1565046f"
           }
         },
         {
@@ -68,11 +68,11 @@
         {
           "name": "preprocessor-SNAPSHOT.jar",
           "url": "preprocessor-SNAPSHOT.jar",
-          "size": 139561,
-          "sha512": "726ca0ff1183a702b2700b4054ca36035a92b2a3c778bce76a863364f2a54ec1f63e7af5371f0ba87bc42da80784f2e40f92382019df780e7c9e0840a2f6d21b",
-          "sha256": "b5841ac889d743a43aa69d5f63b3f2b4127ca6a7aca6acc53ea33ba8060424c5",
-          "sha1": "275bbce8f28cfd737909f30e65b64982d2de9690",
-          "md5": "b98e1d27014bdadd6d794564f45dde90"
+          "size": 144313,
+          "sha512": "a0f7456a10c1087d2fbfaeaf38200fd6686371cd3a75fca1b807d1cb8124fbfc2331d174f364f0924426f7358d38337d9cf60c87e47e2560d0e80f0d6f12f587",
+          "sha256": "ea51c1df154b46d1210118c5de9eb7bdc1633730331bfe42693e53c1050fafcc",
+          "sha1": "f24e7d3b3b362fa528df2b54ea3c519755d9ced9",
+          "md5": "4112e1661bd364cf68969f468a723b84"
         }
       ]
     }
