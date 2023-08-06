@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.plusls.oh-my-minecraft-client",
+    "module": "ommc-1_19_4",
+    "version": "0.5.308+9e3633a-dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ommc-1_19_4-0.5.308+9e3633a-dev.jar",
+          "url": "ommc-1_19_4-0.5.308+9e3633a-dev.jar",
+          "size": 1145832,
+          "sha512": "330f7351a58178b0f5ba792b87a192ead0fcdb2026795306aa64eddeb0ad4c1d4ed3eb47c6f325c497096c2d2dd55da061a82b870dd8b8d71b1709797d3fe908",
+          "sha256": "223d4c731cffed89035648942eb257ef3a82fd7fb6ed9f52ad5a9a39ca7b4ef8",
+          "sha1": "1cbc32e321209e84d91af628447c2f1ffa548a06",
+          "md5": "72aade8ff9c5db9251703933dfec0354"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.plusls.oh-my-minecraft-client",
+          "module": "ommc",
+          "version": {
+            "requires": "0.5.308+9e3633a-dev"
+          }
+        },
+        {
+          "group": "top.hendrixshen.magiclib",
+          "module": "magiclib-1_19_4",
+          "version": {
+            "requires": "0.7.345"
+          },
+          "excludes": [
+            {
+              "group": "carpet",
+              "module": "fabric-carpet"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ommc-1_19_4-0.5.308+9e3633a-dev.jar",
+          "url": "ommc-1_19_4-0.5.308+9e3633a-dev.jar",
+          "size": 1145832,
+          "sha512": "330f7351a58178b0f5ba792b87a192ead0fcdb2026795306aa64eddeb0ad4c1d4ed3eb47c6f325c497096c2d2dd55da061a82b870dd8b8d71b1709797d3fe908",
+          "sha256": "223d4c731cffed89035648942eb257ef3a82fd7fb6ed9f52ad5a9a39ca7b4ef8",
+          "sha1": "1cbc32e321209e84d91af628447c2f1ffa548a06",
+          "md5": "72aade8ff9c5db9251703933dfec0354"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      }
+    }
+  ]
+}
