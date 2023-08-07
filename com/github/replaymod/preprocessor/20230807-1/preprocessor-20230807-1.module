@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.replaymod",
+    "module": "preprocessor",
+    "version": "20230807-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "preprocessor-20230807-1.jar",
+          "url": "preprocessor-20230807-1.jar",
+          "size": 148492,
+          "sha512": "8d36669779343324b115c1568218100b2fc0a09923c5d83c3a73cd9d3d9a444e05d7d690680fd130038ce37bf742ac4d2687ba739ff5f1cb58448d1c734dc911",
+          "sha256": "7494cfbd4686cc0d17ab3607292113d5086366aa7b197a9a19181d47f90613b9",
+          "sha1": "d8e21ee7208428c733d73060ff5dc39ad16f5651",
+          "md5": "943d40759815b4e23b409b28ce8c8e65"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Fallen-Breath",
+          "module": "remap",
+          "version": {
+            "requires": "6d1565046f"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.2.1.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "preprocessor-20230807-1.jar",
+          "url": "preprocessor-20230807-1.jar",
+          "size": 148492,
+          "sha512": "8d36669779343324b115c1568218100b2fc0a09923c5d83c3a73cd9d3d9a444e05d7d690680fd130038ce37bf742ac4d2687ba739ff5f1cb58448d1c734dc911",
+          "sha256": "7494cfbd4686cc0d17ab3607292113d5086366aa7b197a9a19181d47f90613b9",
+          "sha1": "d8e21ee7208428c733d73060ff5dc39ad16f5651",
+          "md5": "943d40759815b4e23b409b28ce8c8e65"
+        }
+      ]
+    }
+  ]
+}

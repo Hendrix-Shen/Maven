@@ -3,10 +3,11 @@
   <groupId>com.replaymod.preprocess-root</groupId>
   <artifactId>com.replaymod.preprocess-root.gradle.plugin</artifactId>
   <versioning>
-    <latest>SNAPSHOT</latest>
+    <latest>20230807-1</latest>
+    <release>20230807-1</release>
     <versions>
-      <version>SNAPSHOT</version>
+      <version>20230807-1</version>
     </versions>
-    <lastUpdated>20230701133048</lastUpdated>
+    <lastUpdated>20230807094229</lastUpdated>
   </versioning>
 </metadata>
